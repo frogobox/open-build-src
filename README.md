@@ -40,9 +40,7 @@ dependencies {
 }
 ```
 
-### Step 3. Usage 
-
-Add on your dependencies build.gradle.kts
+### Step 3. Usage (Add on your dependencies build.gradle.kts : app)
 
 #### Androidx Library
 
@@ -125,6 +123,12 @@ implementation(Util.coil)
 
 kapt(Util.glideCompiler)
 ```
+
+### Screenshoot (Step 2. Add the dependency (build.gradle.kts : BuildSrc)
+![](docs/image/ss_step_2.png?raw=true)
+
+### Screenshoot (Step 3. Usage (Add on your dependencies build.gradle.kts : app))
+![](docs/image/ss_step_3.png?raw=true)
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
