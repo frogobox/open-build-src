@@ -51,27 +51,19 @@ object Version {
     }
 
     object JetBrains {
-
         const val kotlin = "1.6.10" // https://kotlinlang.org/docs/releases.html#release-details
-
         const val coroutines = "1.5.1" // https://github.com/Kotlin/kotlinx.coroutines
-
     }
 
     object Compose {
         const val activityCompose = "1.4.0" // https://androidx.tech/artifacts/activity/activity-compose/
-
         const val compose = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/compose
-
         const val navigation = "2.4.1" // https://androidx.tech/artifacts/navigation/navigation-compose/
-
         const val hiltNavigationCompose = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
-
         const val composeMultiPlatform = "1.1.0" // https://github.com/JetBrains/compose-jb
     }
 
     object Util {
-
         const val okHttp = "5.0.0-alpha.2"
         const val okHttpLogging = "4.9.3"
 
@@ -88,7 +80,6 @@ object Version {
         const val koinVersion = "3.2.0-beta-1" // https://github.com/InsertKoinIO/koin
 
         const val ktorVersion = "2.0.0-beta-1" // https://ktor.io/
-
     }
 
 }
