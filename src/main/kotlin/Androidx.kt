@@ -13,46 +13,42 @@
 
 object Androidx {
 
-    const val appCompatVersion = "1.4.1"
-    const val appCompat = "androidx.appcompat:appcompat:$appCompatVersion"
-    const val appCompatResources = "androidx.appcompat:appcompat-resources:$appCompatVersion"
+    const val appCompat = "androidx.appcompat:appcompat:${Version.AndroidX.appCompat}"
+    
+    const val appCompatResources = "androidx.appcompat:appcompat-resources:${Version.AndroidX.appCompat}"
 
-    const val constraintlayoutVersion = "2.1.3"
-    const val constraintLayout = "androidx.constraintlayout:constraintlayout:$constraintlayoutVersion"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Version.AndroidX.constraintLayout}"
 
-    const val collectionVersion = "1.2.0"
-    const val collection = "androidx.collection:collection-ktx:$collectionVersion"
+    const val collection = "androidx.collection:collection-ktx:${Version.AndroidX.collection}"
 
-    const val savedStateVersion = "1.1.0"
-    const val savedState = "androidx.savedstate:savedstate-ktx:$savedStateVersion"
+    const val savedState = "androidx.savedstate:savedstate-ktx:${Version.AndroidX.savedState}"
 
-    const val viewPager2Version = "1.0.0"
-    const val viewPager2 = "androidx.viewpager2:viewpager2:$viewPager2Version"
+    const val viewPager2 = "androidx.viewpager2:viewpager2:${Version.AndroidX.viewPager2}"
 
-    const val preferenceVersion = "1.2.0"
-    const val preference = "androidx.preference:preference:$preferenceVersion" // Java language implementation
-    const val preferenceKtx = "androidx.preference:preference-ktx:$preferenceVersion" // Kotlin
+    // Java language implementation
+    const val preference = "androidx.preference:preference:${Version.AndroidX.preference}"
+
+    // Kotlin
+    const val preferenceKtx = "androidx.preference:preference-ktx:${Version.AndroidX.preference}" 
 
     // -----------------------------------------------------------------------------------------------------------------
 
     // androidTestImplementation
+    const val runner = "androidx.test:runner:${Version.AndroidX.runner}"
+    
+    const val junit = "androidx.test.ext:junit:${Version.AndroidX.junit}"
+    
+    const val espressoCore = "androidx.test.espresso:espresso-core:${Version.AndroidX.espressoCore}"
 
-    const val runnerVersion = "1.3.0"
-    const val runner = "androidx.test:runner:$runnerVersion"
-
-    const val junitVersion = "1.1.3"
-    const val junit = "androidx.test.ext:junit:$junitVersion"
-
-    const val espressoCoreVersion = "3.4.0"
-    const val espressoCore = "androidx.test.espresso:espresso-core:$espressoCoreVersion"
-
+    // -----------------------------------------------------------------------------------------------------------------
+    
     object Core {
-        const val version = "1.7.0"
 
         // Java language implementation
-        const val java = "androidx.core:core:$version"
+        const val java = "androidx.core:core:${Version.AndroidX.core}"
+
         // Kotlin
-        const val ktx = "androidx.core:core-ktx:$version"
+        const val ktx = "androidx.core:core-ktx:${Version.AndroidX.core}"
 
         // To use RoleManagerCompat
         const val role = "androidx.core:core-role:1.0.0"
@@ -73,90 +69,85 @@ object Androidx {
         const val splashScreen = "androidx.core:core-splashscreen:1.0.0-beta01"
     }
 
-    object LifeCycle {
-        const val version = "2.5.0-alpha03"
-        const val archVersion = "2.1.0"
+    object Lifecycle {
 
         // ViewModel
-        const val viewmodel = "androidx.lifecycle:lifecycle-viewmodel:$version"
+        const val viewmodel = "androidx.lifecycle:lifecycle-viewmodel:${Version.AndroidX.liveCycle}"
 
         // LiveData
-        const val livedata = "androidx.lifecycle:lifecycle-livedata:$version"
+        const val livedata = "androidx.lifecycle:lifecycle-livedata:${Version.AndroidX.liveCycle}"
 
         // Lifecycles only (without ViewModel or LiveData)
-        const val runtime = "androidx.lifecycle:lifecycle-runtime:$version"
+        const val runtime = "androidx.lifecycle:lifecycle-runtime:${Version.AndroidX.liveCycle}"
 
         // Saved state module for ViewModel
-        const val viewmodelSavedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:$version"
+        const val viewmodelSavedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Version.AndroidX.liveCycle}"
 
         // Annotation processor
-        const val compiler = "androidx.lifecycle:lifecycle-compiler:$version"
+        const val compiler = "androidx.lifecycle:lifecycle-compiler:${Version.AndroidX.liveCycle}"
 
         // alternately - if using Java8, use the following instead of lifecycle-compiler
-        const val compilerJava8 = "androidx.lifecycle:lifecycle-common-java8:$version"
+        const val compilerJava8 = "androidx.lifecycle:lifecycle-common-java8:${Version.AndroidX.liveCycle}"
 
         // optional - helpers for implementing LifecycleOwner in a Service
-        const val service = "androidx.lifecycle:lifecycle-service:$version"
+        const val service = "androidx.lifecycle:lifecycle-service:${Version.AndroidX.liveCycle}"
 
         // optional - ProcessLifecycleOwner provides a lifecycle for the whole application process
-        const val process = "androidx.lifecycle:lifecycle-process:$version"
+        const val process = "androidx.lifecycle:lifecycle-process:${Version.AndroidX.liveCycle}"
 
         // optional - ReactiveStreams support for LiveData
-        const val reactivestreams = "androidx.lifecycle:lifecycle-reactivestreams:$version"
+        const val reactivestreams = "androidx.lifecycle:lifecycle-reactivestreams:${Version.AndroidX.liveCycle}"
 
         // optional - Test helpers for LiveData
-        const val coreTesting = "androidx.arch.core:core-testing:$archVersion"
+        const val coreTesting = "androidx.arch.core:core-testing:${Version.AndroidX.liveCycleArch}"
 
     }
 
     object Room {
-        const val version = "2.4.1"
 
-        const val runtime = "androidx.room:room-runtime:$version"
+        const val runtime = "androidx.room:room-runtime:${Version.AndroidX.room}"
 
         // optional - Kotlin Extensions and Coroutines support for Room
-        const val ktx = "androidx.room:room-ktx:$version"
+        const val ktx = "androidx.room:room-ktx:${Version.AndroidX.room}"
 
         // optional - RxJava2 support for Room
-        const val rxJava2 = "androidx.room:room-rxjava2:$version"
+        const val rxJava2 = "androidx.room:room-rxjava2:${Version.AndroidX.room}"
 
         // optional - RxJava2 support for Room
-        const val rxJava3 = "androidx.room:room-rxjava3:$version"
+        const val rxJava3 = "androidx.room:room-rxjava3:${Version.AndroidX.room}"
 
         // optional - Guava support for Room, including Optional and ListenableFuture
-        const val guava = "androidx.room:room-guava:$version"
+        const val guava = "androidx.room:room-guava:${Version.AndroidX.room}"
 
         // optional - Paging 3 Integration
         const val paging = "androidx.room:room-paging:2.5.0-alpha01"
 
         // optional - Test helpers
-        const val roomTest = "androidx.room:room-testing:$version"
+        const val roomTest = "androidx.room:room-testing:${Version.AndroidX.room}"
 
         // Annotation processor
-        const val compiler = "androidx.room:room-compiler:$version"
+        const val compiler = "androidx.room:room-compiler:${Version.AndroidX.room}"
     }
 
     object Work {
 
-        const val version = "2.7.1"
-
         // (Java only)
-        const val runtime = "androidx.work:work-runtime:$version"
+        const val runtime = "androidx.work:work-runtime:${Version.AndroidX.work}"
 
         // Kotlin + coroutines
-        const val runtimeKtx = "androidx.work:work-runtime-ktx:$version"
+        const val runtimeKtx = "androidx.work:work-runtime-ktx:${Version.AndroidX.work}"
 
         // optional - RxJava2 support
-        const val rxJava2 = "androidx.work:work-rxjava2:$version"
+        const val rxJava2 = "androidx.work:work-rxjava2:${Version.AndroidX.work}"
 
         // optional - GCMNetworkManager support
-        const val gcm = "androidx.work:work-gcm:$version"
+        const val gcm = "androidx.work:work-gcm:${Version.AndroidX.work}"
 
         // optional - Test helpers androidTestImplementation
-        const val workAndroidTest = "androidx.work:work-testing:$version"
+        const val workAndroidTest = "androidx.work:work-testing:${Version.AndroidX.work}"
 
         // optional - Multiprocess support
-        const val multiprocess = "androidx.work:work-multiprocess:$version"
+        const val multiprocess = "androidx.work:work-multiprocess:${Version.AndroidX.work}"
 
     }
 
