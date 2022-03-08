@@ -6,4 +6,4 @@ pluginManagement {
     }
 }
 
-rootProject.name = "frogo-build-src"
+rootProject.name = "open-build-src"
