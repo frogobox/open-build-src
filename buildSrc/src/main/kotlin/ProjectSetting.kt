@@ -13,19 +13,19 @@
 
 object ProjectSetting {
 
-    const val PROJECT_NAME = "Frogo Build Src"
+    const val PROJECT_NAME = "Open Build Src"
 
     // -----------------------------------------------------------------------------------------------------------------
 
     const val LIBRARY_DOMAIN = "com"
     const val LIBRARY_CREATOR_NAME = "frogobox"
-    const val LIBRARY_NAME = "frogobuildsrc"
+    const val LIBRARY_NAME = "openbuildsrc"
 
     // -----------------------------------------------------------------------------------------------------------------
 
     const val VERSION_MAJOR = 1
     const val VERSION_MINOR = 0
-    const val VERSION_PATCH = 2
+    const val VERSION_PATCH = 0
 
     // -----------------------------------------------------------------------------------------------------------------
 

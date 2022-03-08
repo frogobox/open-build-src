@@ -1,12 +1,11 @@
-![](https://raw.githubusercontent.com/frogobox/.github/main/docs/image/banner-frogo-build-src.png?raw=true)
-
-## frogo-build-src
+## open-build-src
 [![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
 
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
-- License [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/LICENSE)
-- Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/frogo-build-src/master/PRIVACY-POLICY.md)
+- Develop using IntelliJ IDEA
+- License [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/LICENSE)
+- Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/PRIVACY-POLICY.md)
 
 Repository for testing build from jitpack.io
 - Red : Failed
@@ -15,7 +14,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.2
+    $version_release = 1.0.0
 
 What's New??
 
@@ -36,26 +35,14 @@ repositories {
 
 ```kotlin
 dependencies {
-    // library frogo-build-src
-    implementation("com.github.frogobox:frogo-build-src:1.0.2")
+    // library open-build-src
+    implementation("com.github.frogobox:open-build-src:1.0.0")
 }
 ```
 
 ### Step 3. Usage 
 
 Add on your dependencies build.gradle.kts
-
-#### Frogo Library
-
-```kotlin
-implementation(Frogo.recyclerView)
-implementation(Frogo.admob)
-implementation(Frogo.log)
-implementation(Frogo.notification)
-implementation(Frogo.sdk)
-implementation(Frogo.ui)
-implementation(Frogo.consumeApi)
-```
 
 #### Androidx Library
 
@@ -94,10 +81,6 @@ implementation(Koin.androidxCompose)
 implementation(Util.glide)
 kapt(Util.glideCompiler)
 ```
-
-## Screenshoot
-![ScreentShoot](docs/image/ss_usage.png?raw=true)
-
 
 ## Colaborator
 Very open to anyone, I'll write your name under this, please contribute by sending an email to me
