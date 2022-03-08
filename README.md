@@ -1,5 +1,5 @@
 ## open-build-src
-[![](https://jitpack.io/v/frogobox/frogo-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/frogo-build-src)
+[![](https://jitpack.io/v/frogobox/open-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/open-build-src)
 
 - Library for contant data buildSrc
 - Library for calling contant variable for build.gradle.kts
