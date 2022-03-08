@@ -18,6 +18,7 @@ object Version {
         const val constraintLayout = "2.1.3" // https://developer.android.com/jetpack/androidx/releases/constraintlayout?hl=id
         const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection?hl=id
         const val savedState = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/savedstate?hl=id
+        const val viewPager = "1.1.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/viewpager
         const val viewPager2 = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager2?hl=id
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference?hl=id
         const val core = "1.7.0" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
@@ -28,6 +29,8 @@ object Version {
         const val activityKtx = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/fragment
         const val navigationKtx = "2.4.1" // https://developer.android.com/jetpack/androidx/releases/navigation
+        const val recyclerView = "1.3.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
+        const val recyclerViewSelection = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
 
         // TestImplementation
         const val junit4 = "4.13.2"
@@ -72,11 +75,11 @@ object Version {
         const val okHttp = "5.0.0-alpha.2"
         const val okHttpLogging = "4.9.3"
 
-        const val retrofitVersion = "2.9.0" // https://github.com/square/retrofit
+        const val retrofit = "2.9.0" // https://github.com/square/retrofit
 
-        const val rxAndroid3Version = "3.0.0" // https://github.com/ReactiveX/RxAndroid
-        const val rxKotlin3Version = "3.0.1" // https://github.com/ReactiveX/RxKotlin
-        const val rxJava3Version = "3.1.3" // https://github.com/ReactiveX/RxJava
+        const val rxAndroid3 = "3.0.0" // https://github.com/ReactiveX/RxAndroid
+        const val rxKotlin3 = "3.0.1" // https://github.com/ReactiveX/RxKotlin
+        const val rxJava3 = "3.1.3" // https://github.com/ReactiveX/RxJava
 
         const val glideVersion = "4.13.0" // https://github.com/bumptech/glide
 

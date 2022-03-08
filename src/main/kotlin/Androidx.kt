@@ -27,7 +27,14 @@ object Androidx {
 
     const val savedState = "androidx.savedstate:savedstate-ktx:${Version.AndroidX.savedState}"
 
+    const val viewPager = "androidx.viewpager:viewpager:${Version.AndroidX.viewPager}"
+
     const val viewPager2 = "androidx.viewpager2:viewpager2:${Version.AndroidX.viewPager2}"
+
+    const val recyclerview = "androidx.recyclerview:recyclerview:${Version.AndroidX.recyclerView}"
+
+    // For control over item selection of both touch and mouse driven selection
+    const val recyclerviewSelection = "androidx.recyclerview:recyclerview-selection:${Version.AndroidX.recyclerViewSelection}"
 
     // Java language implementation
     const val preference = "androidx.preference:preference:${Version.AndroidX.preference}"

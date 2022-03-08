@@ -27,8 +27,6 @@ object Util {
     // -----------------------------------------------------------------------------------------------------------------
 
     // Not separated version
-
-    const val makeramenRoundImage = "com.makeramen:roundedimageview:2.3.0"
     const val hdodenhofCircleImageView = "de.hdodenhof:circleimageview:3.1.0"
 
 }
