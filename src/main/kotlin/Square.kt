@@ -29,7 +29,7 @@ object Square {
         const val converterWire = "com.squareup.retrofit2:converter-wire:${Version.Util.retrofit}"
         const val converterSimpleXml = "com.squareup.retrofit2:converter-simplexml:${Version.Util.retrofit}"
         const val converterJAXB = "com.squareup.retrofit2:converter-jaxb:${Version.Util.retrofit}"
-        const val Scalars = "com.squareup.retrofit2:converter-scalars:${Version.Util.retrofit}"
+        const val scalars = "com.squareup.retrofit2:converter-scalars:${Version.Util.retrofit}"
 
         const val adapterRxJava = "com.squareup.retrofit2:adapter-rxjava:${Version.Util.retrofit}"
         const val adapterRxJava2 = "com.squareup.retrofit2:adapter-rxjava2:${Version.Util.retrofit}"
