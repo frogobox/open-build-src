@@ -36,9 +36,11 @@ object Androidx {
     // androidTestImplementation
     const val runner = "androidx.test:runner:${Version.AndroidX.runner}"
     
-    const val junit = "androidx.test.ext:junit:${Version.AndroidX.junit}"
+    const val junitAndroidTest = "androidx.test.ext:junit:${Version.AndroidX.junit}"
     
     const val espressoCore = "androidx.test.espresso:espresso-core:${Version.AndroidX.espressoCore}"
+
+    const val junit4 = "junit:junit:${Version.AndroidX.junit4}"
 
     // -----------------------------------------------------------------------------------------------------------------
     
@@ -67,6 +69,7 @@ object Androidx {
 
         // Optional - APIs for SplashScreen, including compatiblity helpers on devices prior Android 12
         const val splashScreen = "androidx.core:core-splashscreen:1.0.0-beta01"
+
     }
 
     object Lifecycle {
@@ -127,6 +130,7 @@ object Androidx {
 
         // Annotation processor
         const val compiler = "androidx.room:room-compiler:${Version.AndroidX.room}"
+
     }
 
     object Work {

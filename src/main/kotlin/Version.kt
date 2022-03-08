@@ -26,35 +26,54 @@ object Version {
         const val room = "2.4.1"
         const val work = "2.7.1"
 
+        // TestImplementation
+        const val junit4 = "4.13.2"
+
         // androidTestImplementation
         const val runner = "1.3.0"
         const val junit = "1.1.3"
         const val espressoCore = "3.4.0"
     }
 
-    object Coil {
-
-    }
-
-    object Compose {
-
-    }
-
     object Google {
-
-    }
-
-    object Interceptor {
-
+        const val animations = "0.16.0"
+        const val material = "1.5.0"
+        const val gson = "2.9.0"
+        const val admob = "20.6.0"
+        const val userMessagingPlatform = "2.0.0"
+        const val hilt = "2.37"
     }
 
     object JetBrains {
-
+        const val kotlin = "1.6.10"
+        const val kotlinxDatetime = "0.1.1"
+        const val coroutines = "1.5.1"
     }
 
-    object JunitTest {
-
+    object Compose {
+        const val activityComposeVersion = "1.3.0-rc01"
+        const val composeVersion = "1.0.0"
+        const val navigationVersion = "2.4.0-alpha04"
+        const val hiltNavigationComposeVersion = "1.0.0-alpha03"
+        const val composeMultiPlatform = "1.1.0"
     }
 
+    object Util {
+
+        const val retrofitVersion = "2.9.0"
+
+        const val rxKotlin3Version = "3.0.1"
+        const val rxJava3Version = "3.1.3"
+        const val rxAndroid3Version = "3.0.0"
+
+        const val glideVersion = "4.12.0"
+
+        const val coilVersion = "2.0.0-rc01" // https://coil-kt.github.io/coil/compose/
+
+        const val koinVersion = "3.1.5"
+
+        const val ktorVersion = "1.5.2"
+
+    }
 
 }

@@ -1,3 +1,5 @@
+import Version.Google.hilt
+
 /*
  * Created by faisalamir on 07/03/22
  * frogo-build-src
@@ -13,30 +15,25 @@
 
 object Google {
 
-    const val animationsVersion = "0.16.0"
-    const val animations = "com.google.accompanist:accompanist-navigation-animation:$animationsVersion"
+    const val animations = "com.google.accompanist:accompanist-navigation-animation:${Version.Google.animations}"
 
-    const val materialVersion = "1.5.0"
-    const val material = "com.google.android.material:material:$materialVersion"
+    const val material = "com.google.android.material:material:${Version.Google.material}"
 
-    const val gsonVersion = "2.9.0"
-    const val gson = "com.google.code.gson:gson:$gsonVersion"
+    const val gson = "com.google.code.gson:gson:${Version.Google.gson}"
 
-    const val admobVersion = "20.6.0"
-    const val admob = "com.google.android.gms:play-services-ads-lite:$admobVersion"
+    const val admob = "com.google.android.gms:play-services-ads-lite:${Version.Google.admob}"
 
-    const val userMessagingPlatformVersion = "2.0.0"
-    const val userMessagingPlatform = "com.google.android.ump:user-messaging-platform:$userMessagingPlatformVersion"
+    const val userMessagingPlatform = "com.google.android.ump:user-messaging-platform:${Version.Google.userMessagingPlatform}"
 
     object Hilt {
-        const val version = "2.37"
-        const val android = "com.google.dagger:hilt-android:$version"
+
+        const val android = "com.google.dagger:hilt-android:$hilt"
 
         // Annotation processor
-        const val compiler = "com.google.dagger:hilt-compiler:$version"
+        const val compiler = "com.google.dagger:hilt-compiler:$hilt"
 
         // androidTestImpementation
-        const val hiltAndroidTesting = "com.google.dagger:hilt-android-testing:$version"
+        const val hiltAndroidTesting = "com.google.dagger:hilt-android-testing:$hilt"
 
     }
 
