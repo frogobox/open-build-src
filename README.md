@@ -47,16 +47,35 @@ Add on your dependencies build.gradle.kts
 #### Androidx Library
 
 ```kotlin
+implementation(Androidx.appCompat)
+implementation(Androidx.appCompatResources)
+implementation(Androidx.activityKtx)
+implementation(Androidx.fragmentKtx)
+implementation(Androidx.constraintLayout)
+implementation(Androidx.collection)
+implementation(Androidx.savedState)
+implementation(Androidx.viewPager2)
+implementation(Androidx.preferenceKtx)
+implementation(Androidx.navigationRuntimeKtx)
+implementation(Androidx.navigationFragmentKtx)
+implementation(Androidx.navigationUiKtx)
 ```
 
 #### Google Library
 
 ```kotlin
+implementation(Google.animations)
+implementation(Google.material)
+implementation(Google.gson)
+implementation(Google.admob)
+implementation(Google.userMessagingPlatform)
 ```
 
 #### JetBrains Library
 
 ```kotlin
+implementation(JetBrains.coroutinesCore)
+implementation(JetBrains.coroutinesAndroid)
 ```
 
 #### Koin Library
@@ -66,19 +85,44 @@ implementation(Koin.android)
 implementation(Koin.androidCompat)
 implementation(Koin.androidxWorkManager)
 implementation(Koin.androidxCompose)
+implementation(Koin.ktor)
+
+testImplementation(Koin.test)
 ```
 
-#### Retrofit Library
+#### Square Library
 ```kotlin
+implementation(Square.Retrofit2.retrofit)
+implementation(Square.Retrofit2.converterGson)
+implementation(Square.Retrofit2.converterJackson)
+implementation(Square.Retrofit2.converterMoshi)
+implementation(Square.Retrofit2.converterProtobuf)
+implementation(Square.Retrofit2.converterWire)
+implementation(Square.Retrofit2.converterSimpleXml)
+implementation(Square.Retrofit2.converterJAXB)
+implementation(Square.Retrofit2.Scalars)
+implementation(Square.Retrofit2.adapterRxJava)
+implementation(Square.Retrofit2.adapterRxJava2)
+implementation(Square.Retrofit2.adapterRxJava3)
 ```
 
 #### ReactiveX Library
 ```kotlin
+// Deprecated
+implementation(Reactivex.rxJava2)
+implementation(Reactivex.rxAndroid2)
+
+// Latest Version
+implementation(Reactivex.rxJava3)
+implementation(Reactivex.rxAndroid3)
+implementation(Reactivex.rxKotlin3)
 ```
 
 #### Util Library
 ```kotlin
 implementation(Util.glide)
+implementation(Util.coil)
+
 kapt(Util.glideCompiler)
 ```
 
