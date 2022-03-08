@@ -25,6 +25,9 @@ object Version {
         const val liveCycleArch = "2.1.0"
         const val room = "2.4.1"
         const val work = "2.7.1"
+        const val activityKtx = "1.4.0"
+        const val fragmentKtx = "1.4.1"
+        const val navigationKtx = "2.4.1"
 
         // TestImplementation
         const val junit4 = "4.13.2"
@@ -70,7 +73,7 @@ object Version {
 
         const val coilVersion = "2.0.0-rc01" // https://coil-kt.github.io/coil/compose/
 
-        const val koinVersion = "3.1.5"
+        const val koinVersion = "3.2.0-beta-1"
 
         const val ktorVersion = "1.5.2"
 

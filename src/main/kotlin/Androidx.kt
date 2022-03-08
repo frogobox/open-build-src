@@ -13,6 +13,10 @@
 
 object Androidx {
 
+    const val activityKtx = "androidx.activity:activity-ktx:${Version.AndroidX.activityKtx}"
+
+    const val fragmentKtx = "androidx.fragment:fragment-ktx:${Version.AndroidX.fragmentKtx}"
+
     const val appCompat = "androidx.appcompat:appcompat:${Version.AndroidX.appCompat}"
     
     const val appCompatResources = "androidx.appcompat:appcompat-resources:${Version.AndroidX.appCompat}"
@@ -29,7 +33,13 @@ object Androidx {
     const val preference = "androidx.preference:preference:${Version.AndroidX.preference}"
 
     // Kotlin
-    const val preferenceKtx = "androidx.preference:preference-ktx:${Version.AndroidX.preference}" 
+    const val preferenceKtx = "androidx.preference:preference-ktx:${Version.AndroidX.preference}"
+
+    const val navigationRuntimeKtx = "androidx.navigation:navigation-runtime-ktx:${Version.AndroidX.navigationKtx}"
+
+    const val navigationFragmentKtx = "androidx.navigation:navigation-fragment-ktx:${Version.AndroidX.navigationKtx}"
+
+    const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Version.AndroidX.navigationKtx}"
 
     // -----------------------------------------------------------------------------------------------------------------
 
@@ -76,12 +86,15 @@ object Androidx {
 
         // ViewModel
         const val viewmodel = "androidx.lifecycle:lifecycle-viewmodel:${Version.AndroidX.liveCycle}"
+        const val viewmodelKtx = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Version.AndroidX.liveCycle}"
 
         // LiveData
         const val livedata = "androidx.lifecycle:lifecycle-livedata:${Version.AndroidX.liveCycle}"
+        const val livedataKtx = "androidx.lifecycle:lifecycle-livedata-ktx:${Version.AndroidX.liveCycle}"
 
         // Lifecycles only (without ViewModel or LiveData)
         const val runtime = "androidx.lifecycle:lifecycle-runtime:${Version.AndroidX.liveCycle}"
+        const val runtimeKtx = "androidx.lifecycle:lifecycle-runtime-ktx:${Version.AndroidX.liveCycle}"
 
         // Saved state module for ViewModel
         const val viewmodelSavedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Version.AndroidX.liveCycle}"
@@ -100,6 +113,7 @@ object Androidx {
 
         // optional - ReactiveStreams support for LiveData
         const val reactivestreams = "androidx.lifecycle:lifecycle-reactivestreams:${Version.AndroidX.liveCycle}"
+        const val reactivestreamsKtx = "androidx.lifecycle:lifecycle-reactivestreams-ktx:${Version.AndroidX.liveCycle}"
 
         // optional - Test helpers for LiveData
         const val coreTesting = "androidx.arch.core:core-testing:${Version.AndroidX.liveCycleArch}"

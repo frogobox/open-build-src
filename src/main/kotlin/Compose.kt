@@ -28,6 +28,7 @@ object Compose {
 
     const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$hiltNavigationComposeVersion"
 
-    const val uiTestJunit4 = "androidx.compose.ui:ui-test-junit4:${Version.Compose.composeVersion}"
-    const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:${Version.Compose.composeVersion}"
+    const val uiTestJunit4 = "androidx.compose.ui:ui-test-junit4:$composeVersion"
+    const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:$composeVersion"
+
 }
