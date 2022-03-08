@@ -1,3 +1,5 @@
+import Version.Util.okHttp
+import Version.Util.okHttpLogging
 import Version.Util.retrofitVersion
 
 /*
@@ -15,8 +17,8 @@ import Version.Util.retrofitVersion
 
 object Square {
 
-    const val okhttp = "com.squareup.okhttp3:okhttp:5.0.0-alpha.2"
-    const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:4.9.3"
+    const val okhttp = "com.squareup.okhttp3:okhttp:$okHttp"
+    const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:$okHttpLogging"
 
     object Retrofit2 {
 

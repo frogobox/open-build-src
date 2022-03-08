@@ -15,7 +15,7 @@ import Version.Google.hilt
 
 object Google {
 
-    const val animations = "com.google.accompanist:accompanist-navigation-animation:${Version.Google.animations}"
+    const val accompanist = "com.google.accompanist:accompanist-navigation-animation:${Version.Google.accompanist}"
 
     const val material = "com.google.android.material:material:${Version.Google.material}"
 

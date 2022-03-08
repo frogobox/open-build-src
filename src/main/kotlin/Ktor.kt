@@ -14,8 +14,13 @@ import Version.Util.ktorVersion
  */
 
 object Ktor {
+
     const val clientCore = "io.ktor:ktor-client-core:$ktorVersion"
+
     const val clientSerialization = "io.ktor:ktor-client-serialization:$ktorVersion"
+
     const val clientAndroid = "io.ktor:ktor-client-android:$ktorVersion"
+
     const val clientMock = "io.ktor:ktor-client-mock:$ktorVersion"
+
 }

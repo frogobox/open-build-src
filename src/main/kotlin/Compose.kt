@@ -1,7 +1,6 @@
-import Version.Compose.activityComposeVersion
-import Version.Compose.composeVersion
-import Version.Compose.hiltNavigationComposeVersion
-import Version.Compose.navigationVersion
+import Version.Compose.activityCompose
+import Version.Compose.compose
+import Version.Compose.hiltNavigationCompose
 
 /*
  * Created by faisalamir on 07/03/22
@@ -18,17 +17,17 @@ import Version.Compose.navigationVersion
 
 object Compose {
 
-    const val activity = "androidx.activity:activity-compose:$activityComposeVersion"
+    const val activity = "androidx.activity:activity-compose:$activityCompose"
 
-    const val ui = "androidx.compose.ui:ui:$composeVersion"
-    const val material = "androidx.compose.material:material:$composeVersion"
-    const val tooling = "androidx.compose.ui:ui-tooling:$composeVersion"
+    const val ui = "androidx.compose.ui:ui:$compose"
+    const val material = "androidx.compose.material:material:$compose"
+    const val tooling = "androidx.compose.ui:ui-tooling:$compose"
 
-    const val navigation = "androidx.navigation:navigation-compose:$navigationVersion"
+    const val navigation = "androidx.navigation:navigation-compose:${Version.Compose.navigation}"
 
-    const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$hiltNavigationComposeVersion"
+    const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:$hiltNavigationCompose"
 
-    const val uiTestJunit4 = "androidx.compose.ui:ui-test-junit4:$composeVersion"
-    const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:$composeVersion"
+    const val uiTestJunit4 = "androidx.compose.ui:ui-test-junit4:$compose"
+    const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:$compose"
 
 }
