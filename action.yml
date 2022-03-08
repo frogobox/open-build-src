@@ -1,4 +1,4 @@
-name: 'frogo-build-src'
+name: 'open-build-src'
 description: 'buildSrc Library for build.gradle.kts setup'
 author: 'Frogobox'
 branding:
