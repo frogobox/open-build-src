@@ -1,8 +1,8 @@
 ## open-build-src
 [![](https://jitpack.io/v/frogobox/open-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/open-build-src)
 
-- Library for contant data buildSrc
-- Library for calling contant variable for build.gradle.kts
+- Library for constant data buildSrc
+- Library for calling constant variable for build.gradle.kts
 - Develop using IntelliJ IDEA
 - License [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/PRIVACY-POLICY.md)
