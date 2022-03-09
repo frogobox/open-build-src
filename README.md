@@ -4,6 +4,7 @@
 - Library for constant data buildSrc
 - Library for calling constant variable for build.gradle.kts
 - Develop using IntelliJ IDEA
+- The requirement must already be using buildSrc
 - License [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/LICENSE)
 - Privacy Policy [Click Here](https://raw.githubusercontent.com/frogobox/open-build-src/master/PRIVACY-POLICY.md)
 
@@ -200,9 +201,12 @@ kapt(Util.glideCompiler)
 ```
 
 ### Screenshoot (Step 2. Add the dependency (build.gradle.kts : BuildSrc)
+- For full source code you can [click here](https://github.com/frogobox/frogo-kick-start-android/blob/master/buildSrc/build.gradle.kts)
 ![](docs/image/ss_step_2.png?raw=true)
 
+
 ### Screenshoot (Step 3. Usage (Add on your dependencies build.gradle.kts : app))
+- For full source code you can [click here](https://github.com/frogobox/frogo-kick-start-android/blob/master/app/build.gradle.kts)
 ![](docs/image/ss_step_3.png?raw=true)
 
 ### Detail Version
