@@ -47,6 +47,8 @@ dependencies {
 ### Step 3. Usage (Add on your dependencies build.gradle.kts : app)
 
 #### Androidx Library
+- Version Planted
+
 ```kotlin
 implementation(Androidx.appCompat)
 implementation(Androidx.appCompatResources)
@@ -64,7 +66,10 @@ implementation(Androidx.preferenceKtx)
 implementation(Androidx.navigationRuntimeKtx)
 implementation(Androidx.navigationFragmentKtx)
 implementation(Androidx.navigationUiKtx)
+```
 
+- Custom Version
+```kotlin
 implementation(Androidx.appCompat("version"))
 implementation(Androidx.appCompatResources("version"))
 implementation(Androidx.activityKtx("version"))
