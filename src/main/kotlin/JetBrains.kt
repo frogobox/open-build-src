@@ -16,7 +16,9 @@ import Version.JetBrains.coroutines
 object JetBrains {
 
     const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
+    fun coroutinesCore(version: String): String = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version"
 
     const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+    fun coroutinesAndroid(version: String): String = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version"
 
 }

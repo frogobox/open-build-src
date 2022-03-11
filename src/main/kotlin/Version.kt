@@ -32,6 +32,13 @@ object Version {
         const val recyclerView = "1.3.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
         const val recyclerViewSelection = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
 
+        // Compose Version
+        const val composeActivity = "1.4.0" // https://androidx.tech/artifacts/activity/activity-compose/
+        const val compose = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeNavigation = "2.4.1" // https://androidx.tech/artifacts/navigation/navigation-compose/
+        const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
+        const val composeMultiPlatform = "1.1.0" // https://github.com/JetBrains/compose-jb
+
         // TestImplementation
         const val junit4 = "4.13.2"
 
@@ -53,14 +60,6 @@ object Version {
     object JetBrains {
         const val kotlin = "1.6.10" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.5.1" // https://github.com/Kotlin/kotlinx.coroutines
-    }
-
-    object Compose {
-        const val activityCompose = "1.4.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val compose = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val navigation = "2.4.1" // https://androidx.tech/artifacts/navigation/navigation-compose/
-        const val hiltNavigationCompose = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
-        const val composeMultiPlatform = "1.1.0" // https://github.com/JetBrains/compose-jb
     }
 
     object Util {

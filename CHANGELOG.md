@@ -1,3 +1,7 @@
+## v1.0.2
+- Adding Func for custom version
+- Sample >> implementation(Androidx.appCompat) can call like this implementation(Androidx.appCompat("1.4.1"))
+
 ## v1.0.1
 ```kotlin
 object Version {

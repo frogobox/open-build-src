@@ -15,11 +15,14 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.1
+    $version_release = 1.0.2
 
 What's New??
 
     * Available for buildSrc Kotlin DSL *
+    * Adding Func for custom version *
+    * implementation(Androidx.appCompat) can call like this implementation(Androidx.appCompat("1.4.1")) *
+
 
 ## Download this project
 
@@ -37,7 +40,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:1.0.1")
+    implementation("com.github.frogobox:open-build-src:1.0.2")
 }
 ```
 
@@ -61,6 +64,24 @@ implementation(Androidx.preferenceKtx)
 implementation(Androidx.navigationRuntimeKtx)
 implementation(Androidx.navigationFragmentKtx)
 implementation(Androidx.navigationUiKtx)
+
+implementation(Androidx.appCompat("version"))
+implementation(Androidx.appCompatResources("version"))
+implementation(Androidx.activityKtx("version"))
+implementation(Androidx.fragmentKtx("version"))
+implementation(Androidx.constraintLayout("version"))
+implementation(Androidx.collection("version"))
+implementation(Androidx.savedState("version"))
+implementation(Androidx.viewPager("version"))
+implementation(Androidx.viewPager2("version"))
+implementation(Androidx.recyclerview("version"))
+implementation(Androidx.recyclerviewSelection("version"))
+implementation(Androidx.preference("version"))
+implementation(Androidx.preferenceKtx("version"))
+implementation(Androidx.navigationRuntimeKtx("version"))
+implementation(Androidx.navigationFragmentKtx("version"))
+implementation(Androidx.navigationUiKtx("version"))
+
 ```
 
 #### Androidx Core Library
@@ -73,6 +94,18 @@ implementation(Androidx.Core.animationAndroidTest)
 implementation(Androidx.Core.googleShortCuts)
 implementation(Androidx.Core.remoteViews)
 implementation(Androidx.Core.splashScreen)
+```
+
+#### Androidx Compose Library
+```kotlin
+implementation(Androidx.Compose.activity)
+implementation(Androidx.Compose.ui)
+implementation(Androidx.Compose.material)
+implementation(Androidx.Compose.uiTooling)
+implementation(Androidx.Compose.navigation)
+implementation(Androidx.Compose.hiltNavigation)
+implementation(Androidx.Compose.uiTestJunit4)
+implementation(Androidx.Compose.uiTestManifest)
 ```
 
 #### Androidx Lifecycle Library
@@ -113,18 +146,6 @@ implementation(Androidx.Work.rxJava2)
 implementation(Androidx.Work.gcm)
 implementation(Androidx.Work.workAndroidTest)
 implementation(Androidx.Work.multiprocess)
-```
-
-#### Compose Library
-```kotlin
-implementation(Compose.activity)
-implementation(Compose.ui)
-implementation(Compose.material)
-implementation(Compose.tooling)
-implementation(Compose.navigation)
-implementation(Compose.hiltNavigation)
-implementation(Compose.uiTestJunit4)
-implementation(Compose.uiTestManifest)
 ```
 
 #### Google Library
@@ -179,7 +200,7 @@ implementation(Square.Retrofit2.converterProtobuf)
 implementation(Square.Retrofit2.converterWire)
 implementation(Square.Retrofit2.converterSimpleXml)
 implementation(Square.Retrofit2.converterJAXB)
-implementation(Square.Retrofit2.Scalars)
+implementation(Square.Retrofit2.converterScalars)
 implementation(Square.Retrofit2.adapterRxJava)
 implementation(Square.Retrofit2.adapterRxJava2)
 implementation(Square.Retrofit2.adapterRxJava3)

@@ -117,6 +117,34 @@ object Androidx {
 
     }
 
+    object Compose {
+        
+        const val activity = "androidx.activity:activity-compose:${Version.AndroidX.composeActivity}}"
+        fun activity(version: String): String = "androidx.activity:activity-compose:$version"
+
+        const val material = "androidx.compose.material:material:${Version.AndroidX.compose}"
+        fun material(version: String): String = "androidx.compose.material:material:$version"
+
+        const val ui = "androidx.compose.ui:ui:${Version.AndroidX.compose}"
+        fun ui(version: String): String = "androidx.compose.ui:ui:$version"
+
+        const val uiTooling = "androidx.compose.ui:ui-tooling:${Version.AndroidX.compose}"
+        fun uiTooling(version: String): String = "androidx.compose.ui:ui-tooling:$version"
+
+        const val navigation = "androidx.navigation:navigation-compose:${Version.AndroidX.composeNavigation}"
+        fun navigation(version: String): String = "androidx.navigation:navigation-compose:$version"
+
+        const val hiltNavigation = "androidx.hilt:hilt-navigation-compose:${Version.AndroidX.composeHiltNavigation}"
+        fun hiltNavigation(version: String): String = "androidx.hilt:hilt-navigation-compose:$version"
+
+        const val uiTestJunit4 = "androidx.compose.ui:ui-test-junit4:${Version.AndroidX.compose}"
+        fun uiTestJunit4(version: String): String = "androidx.compose.ui:ui-test-junit4:$version"
+
+        const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:${Version.AndroidX.compose}"
+        fun uiTestManifest(version: String): String = "androidx.compose.ui:ui-test-manifest:$version"
+        
+    }
+
     object Lifecycle {
 
         // ViewModel
