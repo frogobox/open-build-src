@@ -1,3 +1,7 @@
+![](https://raw.githubusercontent.com/amirisback/amirisback/master/docs/image/deprecated.png?raw=true)
+
+## Don't using this stupid project, try migrate to [refreshVersion](https://github.com/jmfayard/refreshVersions/) for automatic upadte
+
 ## open-build-src
 [![](https://jitpack.io/v/frogobox/open-build-src.svg?style=flat-square)](https://jitpack.io/#frogobox/open-build-src)
 
@@ -15,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.2
+    $version_release = 1.0.3 (Last Development)
 
 What's New??
 
@@ -40,7 +44,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:1.0.2")
+    implementation("com.github.frogobox:open-build-src:1.0.3") (Last Development)
 }
 ```
 
