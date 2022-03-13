@@ -119,7 +119,7 @@ object Androidx {
 
     object Compose {
         
-        const val activity = "androidx.activity:activity-compose:${Version.AndroidX.composeActivity}}"
+        const val activity = "androidx.activity:activity-compose:${Version.AndroidX.composeActivity}"
         fun activity(version: String): String = "androidx.activity:activity-compose:$version"
 
         const val material = "androidx.compose.material:material:${Version.AndroidX.compose}"
