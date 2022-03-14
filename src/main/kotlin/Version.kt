@@ -73,6 +73,8 @@ object Version {
         const val rxJava3 = "3.1.3" // https://github.com/ReactiveX/RxJava
 
         const val glideVersion = "4.13.0" // https://github.com/bumptech/glide
+        
+        const val chuckerVersion = "3.5.2" // https://github.com/ChuckerTeam/chucker
 
         const val coilVersion = "2.0.0-rc01" // https://coil-kt.github.io/coil/compose/
 
