@@ -25,7 +25,7 @@ object Util {
     const val glideCompiler = "com.github.bumptech.glide:compiler:$glideVersion"
     fun glideCompiler(version: String): String = "com.github.bumptech.glide:compiler:$version"
     
-    const cal chucker = "com.github.chuckerteam.chucker:library:$chuckerVersion"
+    const val chucker = "com.github.chuckerteam.chucker:library:$chuckerVersion"
     fun chucker(version: String): String = "com.github.chuckerteam.chucker:library:$version"
 
     const val coil = "io.coil-kt:coil:$coilVersion"
