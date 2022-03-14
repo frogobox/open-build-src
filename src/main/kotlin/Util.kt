@@ -1,5 +1,6 @@
 import Version.Util.coilVersion
 import Version.Util.glideVersion
+import Version.Util.chuckerVersion
 
 /*
  * Created by faisalamir on 08/03/22
@@ -23,6 +24,9 @@ object Util {
 
     const val glideCompiler = "com.github.bumptech.glide:compiler:$glideVersion"
     fun glideCompiler(version: String): String = "com.github.bumptech.glide:compiler:$version"
+    
+    const cal chucker = "com.github.chuckerteam.chucker:library:$chuckerVersion"
+    fun chucker(version: String): String = "com.github.chuckerteam.chucker:library:$version"
 
     const val coil = "io.coil-kt:coil:$coilVersion"
     fun coil(version: String): String = "io.coil-kt:coil:$version"
