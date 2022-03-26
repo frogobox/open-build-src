@@ -13,7 +13,11 @@
 
 object Version {
 
-    object AndroidX {
+    object Ad {
+        const val unityAds = "4.0.1"
+    }
+
+    object Androidx {
         const val appCompat = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/appcompat?hl=id
         const val constraintLayout = "2.1.3" // https://developer.android.com/jetpack/androidx/releases/constraintlayout?hl=id
         const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection?hl=id
@@ -55,6 +59,7 @@ object Version {
         const val admob = "20.6.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.41" // https://dagger.dev/hilt/gradle-setup
+        const val adMediationUnityAd = "4.0.1.0" // https://developers.google.com/admob/android/mediation/unity
     }
 
     object JetBrains {

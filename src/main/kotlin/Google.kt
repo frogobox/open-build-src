@@ -30,6 +30,9 @@ object Google {
     const val userMessagingPlatform = "com.google.android.ump:user-messaging-platform:${Version.Google.userMessagingPlatform}"
     fun userMessagingPlatform(version: String): String = "com.google.android.ump:user-messaging-platform:$version"
 
+    const val adMediationUnityAd = "com.google.ads.mediation:unity:${Version.Google.adMediationUnityAd}"
+    fun adMediationUnityAd(version: String): String = "com.google.ads.mediation:unity:$version"
+
     object Hilt {
 
         const val android = "com.google.dagger:hilt-android:$hilt"
