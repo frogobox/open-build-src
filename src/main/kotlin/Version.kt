@@ -14,7 +14,7 @@
 object Version {
 
     object Ad {
-        const val unityAds = "4.0.1"
+        const val unityAds = "4.0.1" // https://developers.google.com/admob/android/mediation/unity
     }
 
     object Androidx {

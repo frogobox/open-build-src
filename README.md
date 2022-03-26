@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.6
+    $version_release = 1.0.7
 
 What's New??
 
@@ -29,6 +29,10 @@ What's New??
     
 ```kotlin
 object Version {
+
+    object Ad {
+        const val unityAds = "4.0.1" // https://developers.google.com/admob/android/mediation/unity
+    }
 
     object AndroidX {
         const val appCompat = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/appcompat?hl=id
@@ -65,6 +69,7 @@ object Version {
         const val admob = "20.6.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.41" // https://dagger.dev/hilt/gradle-setup
+        const val adMediationUnityAd = "4.0.1.0" // https://developers.google.com/admob/android/mediation/unity
     }
 
     object JetBrains {
@@ -112,7 +117,7 @@ object Version {
 ```kotlin
 repositories {
     ...
-    maven { url = uri("https://jitpack.io") }
+    maven("https://jitpack.io")
 }
 ```
 
@@ -121,7 +126,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:1.0.6")
+    implementation("com.github.frogobox:open-build-src:1.0.7")
 }
 ```
 
@@ -241,6 +246,7 @@ implementation(Google.material)
 implementation(Google.gson)
 implementation(Google.admob)
 implementation(Google.userMessagingPlatform)
+implementation(Google.adMediationUnityAd)
 ```
 
 #### Hilt
@@ -299,10 +305,16 @@ implementation(Reactivex.rxAndroid3)
 implementation(Reactivex.rxKotlin3)
 ```
 
+#### Ad Library
+```kotlin
+implementation(Ad.unityAds)
+```
+
 #### Util Library
 ```kotlin
 implementation(Util.glide)
 implementation(Util.coil)
+implementation(Util.chucker)
 
 kapt(Util.glideCompiler)
 ```
