@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
+
 plugins {
     java
     kotlin("jvm") version ProjectSetting.KOTLIN_VERSION
@@ -13,10 +15,19 @@ repositories {
 group = ProjectSetting.LIBRARY_GROUP_ID
 version = ProjectSetting.PROJECT_VERSION_NAME
 
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+tasks.withType<KotlinCompile> {
+    kotlinOptions.jvmTarget = JavaVersion.VERSION_11.toString()
+}
+
 publishing {
 
     publications {
-        register("gprRelease", MavenPublication::class) {
+        register("release", MavenPublication::class) {
             from(components["java"])
             artifactId = rootProject.name
             groupId = project.group.toString()
