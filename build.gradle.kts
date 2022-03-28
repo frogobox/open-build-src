@@ -7,7 +7,7 @@ plugins {
 repositories {
     google()
     mavenCentral()
-    maven { url = uri("https://jitpack.io") }
+    maven("https://jitpack.io")
 }
 
 group = ProjectSetting.LIBRARY_GROUP_ID
@@ -24,7 +24,7 @@ publishing {
         }
 
         repositories {
-            maven { url = uri("https://jitpack.io") }
+            maven("https://jitpack.io")
         }
 
     }
