@@ -1,5 +1,3 @@
-import Version.Util.koinVersion
-
 /*
  * Created by faisalamir on 08/03/22
  * frogo-build-src
@@ -16,31 +14,31 @@ import Version.Util.koinVersion
 object Koin {
 
     // Koin core features
-    const val core = "io.insert-koin:koin-core:$koinVersion"
+    const val core = "io.insert-koin:koin-core:${Version.Util.koin}"
     fun core(version: String): String = "io.insert-koin:koin-core:$version"
 
     // Koin main features for Android (Scope,ViewModel ...)
-    const val android = "io.insert-koin:koin-android:$koinVersion"
+    const val android = "io.insert-koin:koin-android:${Version.Util.koin}"
     fun android(version: String): String = "io.insert-koin:koin-android:$version"
 
     // Koin Java Compatibility
-    const val androidCompat = "io.insert-koin:koin-android-compat:$koinVersion"
+    const val androidCompat = "io.insert-koin:koin-android-compat:${Version.Util.koin}"
     fun androidCompat(version: String): String = "io.insert-koin:koin-android-compat:$version"
 
     // Koin for Jetpack WorkManager
-    const val androidxWorkManager = "io.insert-koin:koin-androidx-workmanager:$koinVersion"
+    const val androidxWorkManager = "io.insert-koin:koin-androidx-workmanager:${Version.Util.koin}"
     fun androidxWorkManager(version: String): String = "io.insert-koin:koin-androidx-workmanager:$version"
 
     // Koin for Jetpack Compose
-    const val androidxCompose = "io.insert-koin:koin-androidx-compose:$koinVersion"
+    const val androidxCompose = "io.insert-koin:koin-androidx-compose:${Version.Util.koin}"
     fun androidxCompose(version: String): String = "io.insert-koin:koin-androidx-compose:$version"
 
     // Koin for Ktor
-    const val ktor = "io.insert-koin:koin-ktor:$koinVersion"
+    const val ktor = "io.insert-koin:koin-ktor:${Version.Util.koin}"
     fun ktor(version: String): String = "io.insert-koin:koin-ktor:$version"
 
     // Testing
-    const val test = "io.insert-koin:koin-test:$koinVersion"
+    const val test = "io.insert-koin:koin-test:${Version.Util.koin}"
     fun test(version: String): String = "io.insert-koin:koin-test:$version"
 
 }

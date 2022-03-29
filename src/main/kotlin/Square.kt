@@ -1,6 +1,3 @@
-import Version.Util.okHttp
-import Version.Util.okHttpLogging
-
 /*
  * Created by faisalamir on 08/03/22
  * frogo-build-src
@@ -16,11 +13,18 @@ import Version.Util.okHttpLogging
 
 object Square {
 
-    const val okhttp = "com.squareup.okhttp3:okhttp:$okHttp"
-    fun okhttp(version: String): String = "com.squareup.okhttp3:okhttp:$version"
+    object OkHttp {
 
-    const val okhttpLogging = "com.squareup.okhttp3:logging-interceptor:$okHttpLogging"
-    fun okhttpLogging(version: String): String = "com.squareup.okhttp3:logging-interceptor:$version"
+        const val okhttp = "com.squareup.okhttp3:okhttp:${Version.Util.okHttp}"
+        fun okhttp(version: String): String = "com.squareup.okhttp3:okhttp:$version"
+
+        const val loggingInterceptor = "com.squareup.okhttp3:logging-interceptor:${Version.Util.okHttp}"
+        fun okhttpLogging(version: String): String = "com.squareup.okhttp3:logging-interceptor:$version"
+
+        const val coroutine = "com.squareup.okhttp3:okhttp-coroutines:${Version.Util.okHttp}"
+        fun okhttpCoroutine(version: String): String = "com.squareup.okhttp3:okhttp-coroutines:$version"
+
+    }
 
     object Retrofit2 {
 

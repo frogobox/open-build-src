@@ -64,6 +64,16 @@ object Androidx {
     const val navigationUiKtx = "androidx.navigation:navigation-ui-ktx:${Version.Androidx.navigationKtx}"
     fun navigationUiKtx(version: String): String = "androidx.navigation:navigation-ui-ktx:$version"
 
+    const val biometric = "androidx.biometric:biometric:${Version.Androidx.biometric}"
+    fun biometric(version: String): String = "androidx.biometric:biometric:$version"
+
+    const val annotation = "androidx.annotation:annotation:${Version.Androidx.annotation}"
+    fun annotation(version: String): String = "androidx.annotation:annotation:$version"
+
+    // To use the Java-compatible @Experimental API annotation
+    const val annotationExperimental = "androidx.annotation:annotation-experimental:${Version.Androidx.annotationExperimental}"
+    fun annotationExperimental(version: String): String = "androidx.annotation:annotation-experimental:$version"
+
     // -----------------------------------------------------------------------------------------------------------------
 
     // androidTestImplementation
@@ -80,6 +90,33 @@ object Androidx {
     fun junit4(version: String): String = "junit:junit:$version"
 
     // -----------------------------------------------------------------------------------------------------------------
+
+    object CameraX {
+
+        // The following line is optional, as the core library is included indirectly by camera-camera2
+        const val core = "androidx.camera:camera-core:${Version.Androidx.camerax}"
+        fun core(version: String): String = "androidx.camera:camera-core:$version"
+
+        const val camera2 = "androidx.camera:camera-camera2:${Version.Androidx.camerax}"
+        fun camera2(version: String): String = "androidx.camera:camera-camera2:$version"
+
+        // If you want to additionally use the CameraX Lifecycle library
+        const val livecycle = "androidx.camera:camera-lifecycle:${Version.Androidx.camerax}"
+        fun livecycle(version: String): String = "androidx.camera:camera-lifecycle:$version"
+
+        // If you want to additionally use the CameraX VideoCapture library
+        const val video = "androidx.camera:camera-video:${Version.Androidx.camerax}"
+        fun video(version: String): String = "androidx.camera:camera-video:$version"
+
+        // If you want to additionally use the CameraX View class
+        const val view = "androidx.camera:camera-view:${Version.Androidx.camerax}"
+        fun view(version: String): String = "androidx.camera:camera-view:$version"
+
+        // If you want to additionally use the CameraX Extensions library
+        const val extensions = "androidx.camera:camera-extensions:${Version.Androidx.camerax}"
+        fun extensions(version: String): String = "androidx.camera:camera-extensions:$version"
+
+    }
 
     object Core {
 
@@ -118,15 +155,36 @@ object Androidx {
     }
 
     object Compose {
-        
+
         const val activity = "androidx.activity:activity-compose:${Version.Androidx.composeActivity}"
         fun activity(version: String): String = "androidx.activity:activity-compose:$version"
 
         const val material = "androidx.compose.material:material:${Version.Androidx.compose}"
         fun material(version: String): String = "androidx.compose.material:material:$version"
 
+        const val material3 = "androidx.compose.material3:material3:${Version.Androidx.composeMaterial3}"
+        fun material3(version: String): String = "androidx.compose.material3:material3:$version"
+
         const val ui = "androidx.compose.ui:ui:${Version.Androidx.compose}"
         fun ui(version: String): String = "androidx.compose.ui:ui:$version"
+
+        const val animation = "androidx.compose.animation:animation:${Version.Androidx.compose}"
+        fun animation(version: String): String = "androidx.compose.animation:animation:$version"
+
+        const val compiler = "androidx.compose.compiler:compiler:${Version.Androidx.compose}"
+        fun compiler(version: String): String = "androidx.compose.compiler:compiler:$version"
+
+        const val foundation = "androidx.compose.foundation:foundation:${Version.Androidx.compose}"
+        fun foundation(version: String): String = "androidx.compose.foundation:foundation:$version"
+
+        const val runtime = "androidx.compose.runtime:runtime:${Version.Androidx.compose}"
+        fun runtime(version: String): String = "androidx.compose.runtime:runtime:$version"
+
+        const val runtimeLiveData = "androidx.compose.runtime:runtime-livedata:${Version.Androidx.compose}"
+        fun runtimeLiveData(version: String): String = "androidx.compose.runtime:runtime-livedata:$version"
+
+        const val runtimeRxJava2 = "androidx.compose.runtime:runtime-rxjava2:${Version.Androidx.compose}"
+        fun runtimeRxJava2(version: String): String = "androidx.compose.runtime:runtime-rxjava2:$version"
 
         const val uiTooling = "androidx.compose.ui:ui-tooling:${Version.Androidx.compose}"
         fun uiTooling(version: String): String = "androidx.compose.ui:ui-tooling:$version"
@@ -142,7 +200,7 @@ object Androidx {
 
         const val uiTestManifest = "androidx.compose.ui:ui-test-manifest:${Version.Androidx.compose}"
         fun uiTestManifest(version: String): String = "androidx.compose.ui:ui-test-manifest:$version"
-        
+
     }
 
     object Lifecycle {
@@ -166,7 +224,9 @@ object Androidx {
         fun runtimeKtx(version: String): String = "androidx.lifecycle:lifecycle-runtime-ktx:$version"
 
         // Saved state module for ViewModel
-        const val viewmodelSavedstate = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Version.Androidx.liveCycle}"
+        const val viewmodelSavedstate =
+            "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Version.Androidx.liveCycle}"
+
         fun viewmodelSavedstate(version: String): String = "androidx.lifecycle:lifecycle-viewmodel-savedstate:$version"
 
         // Annotation processor

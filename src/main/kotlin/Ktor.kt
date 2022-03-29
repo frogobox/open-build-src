@@ -1,5 +1,3 @@
-import Version.Util.ktorVersion
-
 /*
  * Created by faisalamir on 07/03/22
  * frogo-build-src
@@ -15,16 +13,16 @@ import Version.Util.ktorVersion
 
 object Ktor {
 
-    const val clientCore = "io.ktor:ktor-client-core:$ktorVersion"
+    const val clientCore = "io.ktor:ktor-client-core:${Version.Util.ktor}"
     fun clientCore(version: String): String = "io.ktor:ktor-client-core:$version"
 
-    const val clientSerialization = "io.ktor:ktor-client-serialization:$ktorVersion"
+    const val clientSerialization = "io.ktor:ktor-client-serialization:${Version.Util.ktor}"
     fun clientSerialization(version: String): String = "io.ktor:ktor-client-serialization:$version"
 
-    const val clientAndroid = "io.ktor:ktor-client-android:$ktorVersion"
+    const val clientAndroid = "io.ktor:ktor-client-android:${Version.Util.ktor}"
     fun clientAndroid(version: String): String = "io.ktor:ktor-client-android:$version"
 
-    const val clientMock = "io.ktor:ktor-client-mock:$ktorVersion"
+    const val clientMock = "io.ktor:ktor-client-mock:${Version.Util.ktor}"
     fun clientMock(version: String): String = "io.ktor:ktor-client-mock:$version"
 
 }

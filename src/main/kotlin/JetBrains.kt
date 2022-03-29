@@ -1,5 +1,3 @@
-import Version.JetBrains.coroutines
-
 /*
  * Created by faisalamir on 08/03/22
  * frogo-build-src
@@ -15,10 +13,10 @@ import Version.JetBrains.coroutines
 
 object JetBrains {
 
-    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutines"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Version.JetBrains.coroutines}"
     fun coroutinesCore(version: String): String = "org.jetbrains.kotlinx:kotlinx-coroutines-core:$version"
 
-    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$coroutines"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Version.JetBrains.coroutines}"
     fun coroutinesAndroid(version: String): String = "org.jetbrains.kotlinx:kotlinx-coroutines-android:$version"
 
 }
