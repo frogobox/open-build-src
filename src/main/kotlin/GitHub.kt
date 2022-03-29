@@ -11,7 +11,7 @@
  *
  */
 
-object Github {
+object GitHub {
 
     const val glide = "com.github.bumptech.glide:glide:${Version.Util.glide}"
     fun glide(version: String): String = "com.github.bumptech.glide:glide:$version"
