@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.0.9
+    $version_release = 1.1.0
 
 What's New??
 
@@ -91,8 +91,8 @@ object Version {
     }
 
     object JetBrains {
-        const val kotlin = "1.6.20" // https://kotlinlang.org/docs/releases.html#release-details
-        const val coroutines = "1.6.1" // https://github.com/Kotlin/kotlinx.coroutines
+        const val kotlin = "1.6.10" // https://kotlinlang.org/docs/releases.html#release-details
+        const val coroutines = "1.6.0" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
     object Util {
