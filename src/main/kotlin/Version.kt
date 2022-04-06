@@ -20,7 +20,7 @@ object Version {
     }
 
     object Ad {
-        const val unityAds = "4.0.1" // https://developers.google.com/admob/android/mediation/unity
+        const val unityAds = "4.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object Androidx {
@@ -32,30 +32,30 @@ object Version {
         const val viewPager2 = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager2?hl=id
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference?hl=id
         const val core = "1.7.0" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
-        const val liveCycle = "2.5.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
+        const val liveCycle = "2.5.0-alpha43" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val room = "2.4.2" // https://developer.android.com/jetpack/androidx/releases/room?hl=id
         const val work = "2.7.1" // https://developer.android.com/jetpack/androidx/releases/work?hl=id
         const val activityKtx = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/fragment
         const val navigationKtx = "2.4.1" // https://developer.android.com/jetpack/androidx/releases/navigation
-        const val recyclerView = "1.3.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
+        const val recyclerView = "1.3.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/recyclerview
         const val recyclerViewSelection = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/recyclerview
-        const val camerax = "1.1.0-beta02" // https://developer.android.com/jetpack/androidx/releases/camera#kts
+        const val camerax = "1.1.0-beta03" // https://developer.android.com/jetpack/androidx/releases/camera#kts
         const val biometric = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/biometric
         const val annotation = "1.3.0" // https://developer.android.com/jetpack/androidx/releases/annotation
         const val annotationExperimental = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/annotation
 
         // Compose Version
         const val composeActivity = "1.4.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val compose = "1.2.0-alpha06" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val compose = "1.2.0-alpha07" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.2.0-alpha08" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeNavigation = "2.4.1" // https://androidx.tech/artifacts/navigation/navigation-compose/
+        const val composeNavigation = "2.4.2" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
         const val composeMultiPlatform = "1.1.1" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
-        const val junit4 = "4.13.2"
+        const val junit4 = "4.13.2" // https://junit.org/junit4/
 
         // androidTestImplementation
         const val runner = "1.3.0"
@@ -70,12 +70,12 @@ object Version {
         const val admob = "20.6.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.41" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.0.1.0" // https://developers.google.com/admob/android/mediation/unity
+        const val adMediationUnityAd = "4.1.0.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
-        const val kotlin = "1.6.10" // https://kotlinlang.org/docs/releases.html#release-details
-        const val coroutines = "1.6.0" // https://github.com/Kotlin/kotlinx.coroutines
+        const val kotlin = "1.6.20" // https://kotlinlang.org/docs/releases.html#release-details
+        const val coroutines = "1.6.1" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
     object Util {
