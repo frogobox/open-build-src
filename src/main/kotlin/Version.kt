@@ -32,7 +32,7 @@ object Version {
         const val viewPager2 = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager2?hl=id
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference?hl=id
         const val core = "1.7.0" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
-        const val liveCycle = "2.5.0-alpha43" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
+        const val liveCycle = "2.5.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val room = "2.4.2" // https://developer.android.com/jetpack/androidx/releases/room?hl=id
         const val work = "2.7.1" // https://developer.android.com/jetpack/androidx/releases/work?hl=id
