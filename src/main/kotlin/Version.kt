@@ -24,19 +24,19 @@ object Version {
     }
 
     object Androidx {
-        const val appCompat = "1.5.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/appcompat?hl=id
+        const val appCompat = "1.6.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/appcompat?hl=id
         const val constraintLayout = "2.1.3" // https://developer.android.com/jetpack/androidx/releases/constraintlayout?hl=id
         const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection?hl=id
-        const val savedState = "1.2.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/savedstate?hl=id
+        const val savedState = "1.2.0-beta01" // https://developer.android.com/jetpack/androidx/releases/savedstate?hl=id
         const val viewPager = "1.1.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/viewpager
         const val viewPager2 = "1.1.0-beta01" // https://developer.android.com/jetpack/androidx/releases/viewpager2?hl=id
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference?hl=id
-        const val core = "1.9.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
-        const val liveCycle = "2.5.0-alpha06" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
+        const val core = "1.9.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
+        const val liveCycle = "2.5.0-beta01" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
         const val room = "2.5.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/room?hl=id
         const val work = "2.8.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/work?hl=id
-        const val activityKtx = "1.6.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/activity
+        const val activityKtx = "1.6.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.5.0-beta01" // https://developer.android.com/jetpack/androidx/releases/fragment
         const val navigationKtx = "2.5.0-beta01" // https://developer.android.com/jetpack/androidx/releases/navigation
         const val recyclerView = "1.3.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/recyclerview
@@ -80,22 +80,22 @@ object Version {
     }
 
     object Util {
-        const val okHttp = "5.0.0-alpha.6" // https://square.github.io/okhttp/ - https://search.maven.org/search?q=g:com.squareup.okhttp3
+        const val okHttp = "5.0.0-alpha.7" // https://square.github.io/okhttp/ - https://search.maven.org/search?q=g:com.squareup.okhttp3
         const val retrofit = "2.9.0" // https://github.com/square/retrofit
 
         const val rxAndroid3 = "3.0.0" // https://github.com/ReactiveX/RxAndroid
         const val rxKotlin3 = "3.0.1" // https://github.com/ReactiveX/RxKotlin
         const val rxJava3 = "3.1.4" // https://github.com/ReactiveX/RxJava
 
-        const val glide = "4.13.1" // https://github.com/bumptech/glide
+        const val glide = "4.13.2" // https://github.com/bumptech/glide
 
         const val chucker = "3.5.2" // https://github.com/ChuckerTeam/chucker
 
-        const val coil = "2.0.0-rc03" // https://coil-kt.github.io/coil/compose/
+        const val coil = "2.0.0" // https://coil-kt.github.io/coil/compose/
 
-        const val koin = "3.2.0-beta-1" // https://github.com/InsertKoinIO/koin
+        const val koin = "3.2.0" // https://github.com/InsertKoinIO/koin
 
-        const val ktor = "2.0.0" // https://ktor.io/
+        const val ktor = "2.0.1" // https://ktor.io/
     }
 
 }
