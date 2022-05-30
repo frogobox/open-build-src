@@ -13,7 +13,14 @@
 
 object Util {
 
+    // -----------------------------------------------------------------------------------------------------------------
+
+    // Url Maven Repo
+
     const val jitpackUrl = "https://jitpack.io"
+    const val startIoUrl = "https://startappdev.bintray.com/maven"
+
+    // -----------------------------------------------------------------------------------------------------------------
 
     const val coil = "io.coil-kt:coil:${Version.Util.coil}"
     fun coil(version: String): String = "io.coil-kt:coil:$version"

@@ -19,7 +19,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 1.1.4
+    $version_release = 1.1.5
 
 What's New??
 
@@ -28,6 +28,7 @@ What's New??
     * implementation(Androidx.appCompat) can call like this implementation(Androidx.appCompat("1.4.1")) *
     * Update Kotlin Version 1.6.21 *
     * Latest Jetpack Compose Version *
+    * Add Start Io Implementation *
     
 ```kotlin
 object Version {
@@ -140,7 +141,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:1.1.4")
+    implementation("com.github.frogobox:open-build-src:1.1.5")
 }
 ```
 

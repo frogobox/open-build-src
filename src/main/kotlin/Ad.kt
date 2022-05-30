@@ -16,4 +16,7 @@ object Ad {
     const val unityAds = "com.unity3d.ads:unity-ads:${Version.Ad.unityAds}"
     fun unityAds(version: String) : String = "com.unity3d.ads:unity-ads:$version"
 
+    const val startIo = "com.startapp:inapp-sdk:${Version.Ad.startIo}"
+    fun startIo(version: String) : String = "com.startapp:inapp-sdk:$version"
+
 }
