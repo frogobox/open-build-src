@@ -22,4 +22,7 @@ object GitHub {
     const val chucker = "com.github.chuckerteam.chucker:library:${Version.Util.chucker}"
     fun chucker(version: String): String = "com.github.chuckerteam.chucker:library:$version"
 
+    const val piracyChecker = "com.github.javiersantos:PiracyChecker:${Version.Util.piracyChecker}"
+    fun piracyChecker(version: String): String = "com.github.javiersantos:PiracyChecker:$version"
+
 }
