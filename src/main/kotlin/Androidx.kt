@@ -189,6 +189,9 @@ object Androidx {
         const val uiTooling = "androidx.compose.ui:ui-tooling:${Version.Androidx.compose}"
         fun uiTooling(version: String): String = "androidx.compose.ui:ui-tooling:$version"
 
+        const val uiToolingPreview = "androidx.compose.ui:ui-tooling-preview:${Version.Androidx.compose}"
+        fun uiToolingPreview(version: String): String = "androidx.compose.ui:ui-tooling-preview:$version"
+
         const val navigation = "androidx.navigation:navigation-compose:${Version.Androidx.composeNavigation}"
         fun navigation(version: String): String = "androidx.navigation:navigation-compose:$version"
 
