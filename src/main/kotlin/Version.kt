@@ -49,11 +49,11 @@ object Version {
 
         // Compose Version
         const val composeActivity = "1.6.0-alpha03" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val compose = "1.2.0-beta02" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial3 = "1.0.0-alpha12" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeNavigation = "2.5.0-alpha04" // https://androidx.tech/artifacts/navigation/navigation-compose/
+        const val compose = "1.2.0-alpha07" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial3 = "1.0.0-alpha08" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeNavigation = "2.4.2" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
-        const val composeMultiPlatform = "1.2.0-alpha01-dev686" // https://github.com/JetBrains/compose-jb
+        const val composeMultiPlatform = "1.1.1" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
         const val junit4 = "4.13.2" // https://junit.org/junit4/
@@ -76,7 +76,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.6.21" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.6.10" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.6.2" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -98,7 +98,7 @@ object Version {
 
         const val ktor = "2.0.1" // https://ktor.io/
 
-        const val piracyChecker = "1.2.8" //
+        const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
     }
 
 }
