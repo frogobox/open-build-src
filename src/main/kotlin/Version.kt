@@ -46,6 +46,7 @@ object Version {
         const val biometric = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/biometric
         const val annotation = "1.4.0-beta01" // https://developer.android.com/jetpack/androidx/releases/annotation
         const val annotationExperimental = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/annotation
+        const val swipeRefreshLayout = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout?hl=id
 
         // Compose Version
         const val composeActivity = "1.6.0-alpha03" // https://androidx.tech/artifacts/activity/activity-compose/

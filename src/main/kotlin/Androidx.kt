@@ -74,6 +74,9 @@ object Androidx {
     const val annotationExperimental = "androidx.annotation:annotation-experimental:${Version.Androidx.annotationExperimental}"
     fun annotationExperimental(version: String): String = "androidx.annotation:annotation-experimental:$version"
 
+    const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Version.Androidx.swipeRefreshLayout}"
+    fun swipeRefreshLayout(version: String): String = "androidx.swiperefreshlayout:swiperefreshlayout:$version"
+
     // -----------------------------------------------------------------------------------------------------------------
 
     // androidTestImplementation
