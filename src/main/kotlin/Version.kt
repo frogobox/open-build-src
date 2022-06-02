@@ -25,18 +25,18 @@ object Version {
     }
 
     object Androidx {
-        const val appCompat = "1.6.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/appcompat?hl=id
-        const val constraintLayout = "2.1.3" // https://developer.android.com/jetpack/androidx/releases/constraintlayout?hl=id
-        const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection?hl=id
-        const val savedState = "1.2.0-rc01" // https://developer.android.com/jetpack/androidx/releases/savedstate?hl=id
+        const val appCompat = "1.6.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/appcompat
+        const val constraintLayout = "2.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
+        const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection
+        const val savedState = "1.2.0-rc01" // https://developer.android.com/jetpack/androidx/releases/savedstate
         const val viewPager = "1.1.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/viewpager
-        const val viewPager2 = "1.1.0-beta01" // https://developer.android.com/jetpack/androidx/releases/viewpager2?hl=id
-        const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference?hl=id
-        const val core = "1.9.0-alpha03" // https://developer.android.com/jetpack/androidx/releases/core?hl=id
-        const val liveCycle = "2.5.0-rc01" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
-        const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=id
-        const val room = "2.5.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/room?hl=id
-        const val work = "2.8.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/work?hl=id
+        const val viewPager2 = "1.1.0-beta01" // https://developer.android.com/jetpack/androidx/releases/viewpager2
+        const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference
+        const val core = "1.9.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/core
+        const val liveCycle = "2.5.0-rc01" // https://developer.android.com/jetpack/androidx/releases/lifecycle
+        const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
+        const val room = "2.5.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/room
+        const val work = "2.8.0-alpha02" // https://developer.android.com/jetpack/androidx/releases/work
         const val activityKtx = "1.6.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.5.0-rc01" // https://developer.android.com/jetpack/androidx/releases/fragment
         const val navigationKtx = "2.5.0-rc01" // https://developer.android.com/jetpack/androidx/releases/navigation
@@ -46,14 +46,14 @@ object Version {
         const val biometric = "1.2.0-alpha04" // https://developer.android.com/jetpack/androidx/releases/biometric
         const val annotation = "1.4.0-beta01" // https://developer.android.com/jetpack/androidx/releases/annotation
         const val annotationExperimental = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/annotation
-        const val swipeRefreshLayout = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout?hl=id
+        const val swipeRefreshLayout = "1.2.0-alpha01" // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
 
         // Compose Version
         const val composeActivity = "1.6.0-alpha03" // https://androidx.tech/artifacts/activity/activity-compose/
         const val compose = "1.2.0-alpha07" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.0.0-alpha08" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.4.2" // https://androidx.tech/artifacts/navigation/navigation-compose/
-        const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt?hl=id
+        const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
         const val composeMultiPlatform = "1.1.1" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
