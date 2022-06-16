@@ -28,6 +28,9 @@ object Androidx {
     const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Version.Androidx.constraintLayout}"
     fun constraintLayout(version: String): String = "androidx.constraintlayout:constraintlayout:$version"
 
+    const val constraintLayoutCompose = "androidx.constraintlayout:constraintlayout-compose:${Version.Androidx.constraintLayoutCompose}"
+    fun constraintLayoutCompose(version: String): String = "androidx.constraintlayout:constraintlayout-compose:$version"
+
     const val collection = "androidx.collection:collection-ktx:${Version.Androidx.collection}"
     fun collection(version: String): String = "androidx.collection:collection-ktx:$version"
 
