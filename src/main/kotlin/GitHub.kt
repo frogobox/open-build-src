@@ -25,4 +25,7 @@ object GitHub {
     const val piracyChecker = "com.github.javiersantos:PiracyChecker:${Version.Util.piracyChecker}"
     fun piracyChecker(version: String): String = "com.github.javiersantos:PiracyChecker:$version"
 
+    const val customActivityOnCrash = "cat.ereza:customactivityoncrash:${Version.Util.customActivityOnCrash}"
+    fun customActivityOnCrash(version: String): String = "cat.ereza:customactivityoncrash:$version"
+
 }

@@ -177,7 +177,7 @@ object Androidx {
         const val animation = "androidx.compose.animation:animation:${Version.Androidx.compose}"
         fun animation(version: String): String = "androidx.compose.animation:animation:$version"
 
-        const val compiler = "androidx.compose.compiler:compiler:${Version.Androidx.compose}"
+        const val compiler = "androidx.compose.compiler:compiler:${Version.Androidx.composeCompiler}"
         fun compiler(version: String): String = "androidx.compose.compiler:compiler:$version"
 
         const val foundation = "androidx.compose.foundation:foundation:${Version.Androidx.compose}"
