@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.2
+    $version_release = 2.0.3
 
 What's New??
 
@@ -134,7 +134,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.0.2")
+    implementation("com.github.frogobox:open-build-src:2.0.3")
 }
 ```
 
