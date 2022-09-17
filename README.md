@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.4
+    $version_release = 2.0.5
 
 What's New??
 
@@ -29,12 +29,12 @@ object Version {
 
     object Gradle {
         const val minSdk = 21
-        const val compileSdk = 33
+        const val compileSdk = 32
         const val targetSdk = compileSdk
     }
 
     object Ad {
-        const val unityAds = "4.2.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val unityAds = "4.4.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
         const val startIo = "4.10.0" // https://support.start.io/hc/en-us/articles/360014774799-Integration-via-Maven
     }
 
@@ -85,10 +85,10 @@ object Version {
         const val accompanist = "0.26.1-alpha" // https://github.com/google/accompanist
         const val material = "1.7.0-beta01" // https://github.com/material-components/material-components-android/releases
         const val gson = "2.9.1" // https://github.com/google/gson
-        const val admob = "21.1.0" // https://developers.google.com/admob/android/sdk
+        const val admob = "21.2.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.43.2" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.2.1.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val adMediationUnityAd = "4.4.0.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
@@ -108,7 +108,7 @@ object Version {
         const val glide = "4.13.2" // https://github.com/bumptech/glide
         const val chucker = "3.5.2" // https://github.com/ChuckerTeam/chucker
         const val coil = "2.1.0" // https://coil-kt.github.io/coil/compose/
-        const val koin = "3.2.0" // https://github.com/InsertKoinIO/koin
+        const val koin = "3.2.1" // https://github.com/InsertKoinIO/koin
         const val ktor = "2.0.3" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
         const val customActivityOnCrash = "2.4.0" // https://github.com/Ereza/CustomActivityOnCrash
@@ -134,7 +134,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.0.4")
+    implementation("com.github.frogobox:open-build-src:2.0.5")
 }
 ```
 
