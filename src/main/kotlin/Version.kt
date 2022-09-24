@@ -15,7 +15,7 @@ object Version {
 
     object Gradle {
         const val minSdk = 21
-        const val compileSdk = 32
+        const val compileSdk = 33
         const val targetSdk = compileSdk
     }
 
@@ -25,7 +25,7 @@ object Version {
     }
 
     object Androidx {
-        const val appCompat = "1.5.0" // https://developer.android.com/jetpack/androidx/releases/appcompat
+        const val appCompat = "1.6.0-rc01" // https://developer.android.com/jetpack/androidx/releases/appcompat
         const val constraintLayout = "2.1.4" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
         const val constraintLayoutCompose = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
         const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection
@@ -33,14 +33,14 @@ object Version {
         const val viewPager = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager
         const val viewPager2 = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager2
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference
-        const val core = "1.8.0" // https://developer.android.com/jetpack/androidx/releases/core
+        const val core = "1.9.0" // https://developer.android.com/jetpack/androidx/releases/core
         const val liveCycle = "2.5.1" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val room = "2.4.3" // https://developer.android.com/jetpack/androidx/releases/room
         const val work = "2.7.1" // https://developer.android.com/jetpack/androidx/releases/work
-        const val activityKtx = "1.5.1" // https://developer.android.com/jetpack/androidx/releases/activity
+        const val activityKtx = "1.6.0-rc02" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.5.2" // https://developer.android.com/jetpack/androidx/releases/fragment
-        const val navigationKtx = "2.5.1" // https://developer.android.com/jetpack/androidx/releases/navigation
+        const val navigationKtx = "2.5.2" // https://developer.android.com/jetpack/androidx/releases/navigation
         const val recyclerView = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/recyclerview
         const val recyclerViewSelection = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/recyclerview
         const val camerax = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/camera#kts
@@ -50,11 +50,11 @@ object Version {
         const val swipeRefreshLayout = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/swiperefreshlayout
 
         // Compose Version
-        const val composeActivity = "1.5.1" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.3.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeActivity = "1.6.0" // https://androidx.tech/artifacts/activity/activity-compose/
+        const val composeCompiler = "1.3.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val compose = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.0.0-alpha14" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeNavigation = "2.5.1" // https://androidx.tech/artifacts/navigation/navigation-compose/
+        const val composeNavigation = "2.5.2" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
         const val composeMultiPlatform = "1.1.1" // https://github.com/JetBrains/compose-jb
 
@@ -69,11 +69,11 @@ object Version {
 
     object Google {
         const val accompanist = "0.26.1-alpha" // https://github.com/google/accompanist
-        const val material = "1.7.0-beta01" // https://github.com/material-components/material-components-android/releases
+        const val material = "1.8.0-alpha01" // https://github.com/material-components/material-components-android/releases
         const val gson = "2.9.1" // https://github.com/google/gson
         const val admob = "21.2.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
-        const val hilt = "2.43.2" // https://dagger.dev/hilt/gradle-setup
+        const val hilt = "2.44" // https://dagger.dev/hilt/gradle-setup
         const val adMediationUnityAd = "4.4.0.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
@@ -94,8 +94,8 @@ object Version {
         const val glide = "4.13.2" // https://github.com/bumptech/glide
         const val chucker = "3.5.2" // https://github.com/ChuckerTeam/chucker
         const val coil = "2.1.0" // https://coil-kt.github.io/coil/compose/
-        const val koin = "3.2.1" // https://github.com/InsertKoinIO/koin
-        const val ktor = "2.0.3" // https://ktor.io/
+        const val koin = "3.2.2" // https://github.com/InsertKoinIO/koin
+        const val ktor = "2.1.1" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
         const val customActivityOnCrash = "2.4.0" // https://github.com/Ereza/CustomActivityOnCrash
     }
