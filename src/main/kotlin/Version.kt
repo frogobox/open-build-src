@@ -20,8 +20,8 @@ object Version {
     }
 
     object Ad {
-        const val unityAds = "4.4.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
-        const val startIo = "4.10.5" // https://support.start.io/hc/en-us/articles/360014774799-Integration-via-Maven
+        const val unityAds = "4.5.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val startIo = "4.10.6" // https://support.start.io/hc/en-us/articles/360014774799-Integration-via-Maven
     }
 
     object Androidx {
@@ -56,7 +56,7 @@ object Version {
         const val composeMaterial3 = "1.0.0-alpha14" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
-        const val composeMultiPlatform = "1.2.1" // https://github.com/JetBrains/compose-jb
+        const val composeMultiPlatform = "1.2.2" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
         const val junit4 = "4.13.2" // https://junit.org/junit4/
@@ -69,17 +69,17 @@ object Version {
 
     object Google {
         const val accompanist = "0.28.0" // https://github.com/google/accompanist
-        const val material = "1.8.0-beta01" // https://github.com/material-components/material-components-android/releases
-        const val gson = "2.10" // https://github.com/google/gson
-        const val admob = "21.3.0" // https://developers.google.com/admob/android/sdk
+        const val material = "1.8.0-rc01" // https://github.com/material-components/material-components-android/releases
+        const val gson = "2.10.1" // https://github.com/google/gson
+        const val admob = "21.4.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.44.2" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.4.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val adMediationUnityAd = "4.5.0.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.7.20" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.8.0" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.6.4" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -95,12 +95,12 @@ object Version {
         const val chucker = "3.5.2" // https://github.com/ChuckerTeam/chucker
         const val coil = "2.2.2" // https://coil-kt.github.io/coil/compose/
 
-        const val koin = "3.2.2" // https://github.com/InsertKoinIO/koin
-        const val koin_android = "3.3.0" // https://github.com/InsertKoinIO/koin
-        const val koin_android_compose = "3.3.0" // https://github.com/InsertKoinIO/koin
-        const val koin_ktor = "3.2.2" // https://github.com/InsertKoinIO/koin
+        const val koin = "3.3.2" // https://github.com/InsertKoinIO/koin
+        const val koin_android = "3.3.2" // https://github.com/InsertKoinIO/koin
+        const val koin_android_compose = "3.4.1" // https://github.com/InsertKoinIO/koin
+        const val koin_ktor = "3.3.0" // https://github.com/InsertKoinIO/koin
 
-        const val ktor = "2.2.1" // https://ktor.io/
+        const val ktor = "2.2.2" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
         const val customActivityOnCrash = "2.4.0" // https://github.com/Ereza/CustomActivityOnCrash
     }
