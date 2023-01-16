@@ -79,7 +79,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.0" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.7.20" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.6.4" // https://github.com/Kotlin/kotlinx.coroutines
     }
 

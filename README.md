@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.0.8
+    $version_release = 2.0.9
 
 What's New??
 
@@ -93,7 +93,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.0" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.7.20" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.6.4" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -139,7 +139,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.0.7")
+    implementation("com.github.frogobox:open-build-src:2.0.9")
 }
 ```
 
