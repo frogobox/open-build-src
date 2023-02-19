@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.1.0
+    $version_release = 2.1.1
 
 What's New??
 
@@ -49,7 +49,7 @@ object Version {
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference
         const val core = "1.9.0" // https://developer.android.com/jetpack/androidx/releases/core
         const val liveCycle = "2.5.1" // https://developer.android.com/jetpack/androidx/releases/lifecycle
-        const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
+        const val liveCycleArch = "2.1.1" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val room = "2.5.0" // https://developer.android.com/jetpack/androidx/releases/room
         const val work = "2.7.1" // https://developer.android.com/jetpack/androidx/releases/work
         const val activityKtx = "1.6.1" // https://developer.android.com/jetpack/androidx/releases/activity
@@ -117,6 +117,8 @@ object Version {
         const val ktor = "2.2.2" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
         const val customActivityOnCrash = "2.4.0" // https://github.com/Ereza/CustomActivityOnCrash
+
+        const val balloon = "1.5.2" // https://github.com/skydoves/Balloon
     }
 
 }
@@ -139,7 +141,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.1.0")
+    implementation("com.github.frogobox:open-build-src:2.1.1")
 }
 ```
 

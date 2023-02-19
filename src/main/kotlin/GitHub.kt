@@ -28,4 +28,7 @@ object GitHub {
     const val customActivityOnCrash = "cat.ereza:customactivityoncrash:${Version.Util.customActivityOnCrash}"
     fun customActivityOnCrash(version: String): String = "cat.ereza:customactivityoncrash:$version"
 
+    const val balloon = "com.github.skydoves:balloon:${Version.Util.balloon}"
+    fun balloon(version: String): String = "com.github.skydoves:balloon:$version"
+
 }

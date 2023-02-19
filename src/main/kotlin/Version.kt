@@ -103,6 +103,8 @@ object Version {
         const val ktor = "2.2.2" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
         const val customActivityOnCrash = "2.4.0" // https://github.com/Ereza/CustomActivityOnCrash
+
+        const val balloon = "1.5.2" // https://github.com/skydoves/Balloon
     }
 
 }
