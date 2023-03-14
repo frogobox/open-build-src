@@ -165,7 +165,7 @@ object Androidx {
         const val activity = "androidx.activity:activity-compose:${Version.Androidx.composeActivity}"
         fun activity(version: String): String = "androidx.activity:activity-compose:$version"
 
-        const val material = "androidx.compose.material:material:${Version.Androidx.compose}"
+        const val material = "androidx.compose.material:material:${Version.Androidx.composeMaterial}"
         fun material(version: String): String = "androidx.compose.material:material:$version"
 
         const val material3 = "androidx.compose.material3:material3:${Version.Androidx.composeMaterial3}"
@@ -180,7 +180,7 @@ object Androidx {
         const val compiler = "androidx.compose.compiler:compiler:${Version.Androidx.composeCompiler}"
         fun compiler(version: String): String = "androidx.compose.compiler:compiler:$version"
 
-        const val foundation = "androidx.compose.foundation:foundation:${Version.Androidx.compose}"
+        const val foundation = "androidx.compose.foundation:foundation:${Version.Androidx.composeFoundation}"
         fun foundation(version: String): String = "androidx.compose.foundation:foundation:$version"
 
         const val runtime = "androidx.compose.runtime:runtime:${Version.Androidx.compose}"
