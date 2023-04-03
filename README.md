@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.1.3
+    $version_release = 2.1.4
 
 What's New??
 
@@ -86,7 +86,7 @@ object Version {
 
     object Google {
         const val accompanist = "0.30.0" // https://github.com/google/accompanist
-        const val material = "1.10.0-alpha01" // https://github.com/material-components/material-components-android/releases
+        const val material = "1.9.0-beta01" // https://github.com/material-components/material-components-android/releases
         const val gson = "2.10.1" // https://github.com/google/gson
         const val admob = "22.0.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
@@ -146,7 +146,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.1.3")
+    implementation("com.github.frogobox:open-build-src:2.1.4")
 }
 ```
 
