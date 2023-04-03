@@ -80,6 +80,9 @@ object Androidx {
     const val swipeRefreshLayout = "androidx.swiperefreshlayout:swiperefreshlayout:${Version.Androidx.swipeRefreshLayout}"
     fun swipeRefreshLayout(version: String): String = "androidx.swiperefreshlayout:swiperefreshlayout:$version"
 
+    const val emoji2 = "androidx.emoji2:emoji2-bundled:${Version.Androidx.emoji2}"
+    fun emoji2(version: String): String = "androidx.emoji2:emoji2-bundled:$version"
+
     // -----------------------------------------------------------------------------------------------------------------
 
     // androidTestImplementation
