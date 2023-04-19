@@ -33,7 +33,7 @@ object Version {
         const val viewPager = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager
         const val viewPager2 = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/viewpager2
         const val preference = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/preference
-        const val core = "1.9.0" // https://developer.android.com/jetpack/androidx/releases/core
+        const val core = "1.10.0" // https://developer.android.com/jetpack/androidx/releases/core
         const val liveCycle = "2.6.1" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val liveCycleArch = "2.1.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val room = "2.5.1" // https://developer.android.com/jetpack/androidx/releases/room
@@ -52,14 +52,14 @@ object Version {
 
         // Compose Version
         const val composeActivity = "1.7.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.4.4" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val compose = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeFoundation = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeCompiler = "1.4.5" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val compose = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeFoundation = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
-        const val composeMultiPlatform = "1.3.1" // https://github.com/JetBrains/compose-jb
+        const val composeMultiPlatform = "1.4.0" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
         const val junit4 = "4.13.2" // https://junit.org/junit4/
@@ -72,17 +72,17 @@ object Version {
 
     object Google {
         const val accompanist = "0.30.0" // https://github.com/google/accompanist
-        const val material = "1.9.0-beta01" // https://github.com/material-components/material-components-android/releases
+        const val material = "1.9.0-rc01" // https://github.com/material-components/material-components-android/releases
         const val gson = "2.10.1" // https://github.com/google/gson
         const val admob = "22.0.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.45" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.6.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val adMediationUnityAd = "4.6.1.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.10" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.8.20" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.7.0-Beta" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -100,7 +100,7 @@ object Version {
 
         const val koin = "3.4.0" // https://github.com/InsertKoinIO/koin
         const val koin_android = "3.4.0" // https://github.com/InsertKoinIO/koin
-        const val koin_android_compose = "3.4.3" // https://github.com/InsertKoinIO/koin
+        const val koin_android_compose = "3.4.4" // https://github.com/InsertKoinIO/koin
         const val koin_ktor = "3.4.0" // https://github.com/InsertKoinIO/koin
 
         const val ktor = "2.2.4" // https://ktor.io/
@@ -109,7 +109,7 @@ object Version {
 
         const val fastAdapter = "5.7.0" // https://github.com/mikepenz/FastAdapter
 
-        const val balloon = "1.5.2" // https://github.com/skydoves/Balloon
+        const val balloon = "1.5.3" // https://github.com/skydoves/Balloon
     }
 
 }
