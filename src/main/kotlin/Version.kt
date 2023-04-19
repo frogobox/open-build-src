@@ -52,10 +52,10 @@ object Version {
 
         // Compose Version
         const val composeActivity = "1.7.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.4.5" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val compose = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeFoundation = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeCompiler = "1.4.4" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val compose = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeFoundation = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
@@ -82,7 +82,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.20" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.8.10" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.7.0-Beta" // https://github.com/Kotlin/kotlinx.coroutines
     }
 

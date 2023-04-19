@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.1.5
+    $version_release = 2.1.6
 
 What's New??
 
@@ -40,7 +40,7 @@ object Version {
 
     object Androidx {
         const val appCompat = "1.6.1" // https://developer.android.com/jetpack/androidx/releases/appcompat
-        const val constraintLayout = "2.1.5" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
+        const val constraintLayout = "2.1.4" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
         const val constraintLayoutCompose = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/constraintlayout
         const val collection = "1.2.0" // https://developer.android.com/jetpack/androidx/releases/collection
         const val savedState = "1.2.1" // https://developer.android.com/jetpack/androidx/releases/savedstate
@@ -66,10 +66,10 @@ object Version {
 
         // Compose Version
         const val composeActivity = "1.7.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.4.5" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val compose = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeFoundation = "1.4.1" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeCompiler = "1.4.4" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val compose = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeFoundation = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial3 = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
@@ -96,7 +96,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.20" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.8.10" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.7.0-Beta" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -146,7 +146,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.1.5")
+    implementation("com.github.frogobox:open-build-src:2.1.6")
 }
 ```
 
