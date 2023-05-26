@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.1.7
+    $version_release = 2.1.8
 
 What's New??
 
@@ -49,12 +49,12 @@ object Version {
         const val liveCycleArch = "2.2.0" // https://developer.android.com/jetpack/androidx/releases/lifecycle
         const val room = "2.5.1" // https://developer.android.com/jetpack/androidx/releases/room
         const val work = "2.8.1" // https://developer.android.com/jetpack/androidx/releases/work
-        const val activityKtx = "1.7.1" // https://developer.android.com/jetpack/androidx/releases/activity
+        const val activityKtx = "1.7.2" // https://developer.android.com/jetpack/androidx/releases/activity
         const val fragmentKtx = "1.5.7" // https://developer.android.com/jetpack/androidx/releases/fragment
         const val navigationKtx = "2.5.3" // https://developer.android.com/jetpack/androidx/releases/navigation
         const val recyclerView = "1.3.0" // https://developer.android.com/jetpack/androidx/releases/recyclerview
         const val recyclerViewSelection = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/recyclerview
-        const val camerax = "1.2.2" // https://developer.android.com/jetpack/androidx/releases/camera#kts
+        const val camerax = "1.2.3" // https://developer.android.com/jetpack/androidx/releases/camera#kts
         const val biometric = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/biometric
         const val annotation = "1.6.0" // https://developer.android.com/jetpack/androidx/releases/annotation
         const val annotationExperimental = "1.3.0" // https://developer.android.com/jetpack/androidx/releases/annotation
@@ -62,12 +62,12 @@ object Version {
         const val emoji2 = "1.3.0" // https://developer.android.com/jetpack/androidx/releases/emoji2
 
         // Compose Version
-        const val composeActivity = "1.7.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.4.4" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val compose = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeFoundation = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/compose
-        const val composeMaterial3 = "1.0.1" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeActivity = "1.7.2" // https://androidx.tech/artifacts/activity/activity-compose/
+        const val composeCompiler = "1.4.7" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val compose = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeFoundation = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeMaterial3 = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
         const val composeMultiPlatform = "1.4.0" // https://github.com/JetBrains/compose-jb
@@ -121,7 +121,6 @@ object Version {
         const val fastAdapter = "5.7.0" // https://github.com/mikepenz/FastAdapter
 
         const val balloon = "1.5.3" // https://github.com/skydoves/Balloon
-        const val keyboard = "1.1.2" // https://github.com/amirisback/keyboard
     }
 
 }
@@ -144,7 +143,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.1.7")
+    implementation("com.github.frogobox:open-build-src:2.1.8")
 }
 ```
 

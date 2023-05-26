@@ -31,8 +31,4 @@ object GitHub {
     const val balloon = "com.github.skydoves:balloon:${Version.Util.balloon}"
     fun balloon(version: String): String = "com.github.skydoves:balloon:$version"
 
-    const val keyboard = "com.github.amirisback:keyboard:${Version.Util.keyboard}"
-
-    fun keyboard(version: String): String = "com.github.amirisback:keyboard:$version"
-
 }
