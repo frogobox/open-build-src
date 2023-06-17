@@ -59,6 +59,8 @@ object Version {
         const val composeMaterial3 = "1.1.0" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeNavigation = "2.5.3" // https://androidx.tech/artifacts/navigation/navigation-compose/
         const val composeHiltNavigation = "1.0.0" // https://developer.android.com/jetpack/androidx/releases/hilt
+
+        // https://github.com/JetBrains/compose-multiplatform/blob/master/VERSIONING.md#kotlin-compatibility
         const val composeMultiPlatform = "1.4.0" // https://github.com/JetBrains/compose-jb
 
         // TestImplementation
@@ -82,6 +84,7 @@ object Version {
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
+        // https://github.com/JetBrains/compose-multiplatform/blob/master/VERSIONING.md#kotlin-compatibility
         const val kotlin = "1.8.20" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.7.1" // https://github.com/Kotlin/kotlinx.coroutines
     }
