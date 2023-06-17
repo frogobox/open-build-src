@@ -15,7 +15,7 @@ Repository for testing build from jitpack.io
 ## Version Release
 This Is Latest Release
 
-    $version_release = 2.1.8
+    $version_release = 2.1.9
 
 What's New??
 
@@ -31,7 +31,7 @@ object Version {
     }
 
     object Ad {
-        const val unityAds = "4.7.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val unityAds = "4.7.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
         const val startIo = "4.11.0" // https://support.start.io/hc/en-us/articles/360014774799-Integration-via-Maven
     }
 
@@ -63,7 +63,7 @@ object Version {
 
         // Compose Version
         const val composeActivity = "1.7.2" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.4.7" // https://developer.android.com/jetpack/androidx/releases/compose
+        const val composeCompiler = "1.4.6" // https://developer.android.com/jetpack/androidx/releases/compose
         const val compose = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeFoundation = "1.4.3" // https://developer.android.com/jetpack/androidx/releases/compose
@@ -88,12 +88,12 @@ object Version {
         const val admob = "22.1.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.46.1" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.7.0.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val adMediationUnityAd = "4.7.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
         // https://developer.android.com/jetpack/androidx/releases/compose-kotlin - Compability For Compose Version
-        const val kotlin = "1.8.21" // https://kotlinlang.org/docs/releases.html#release-details
+        const val kotlin = "1.8.20" // https://kotlinlang.org/docs/releases.html#release-details
         const val coroutines = "1.7.1" // https://github.com/Kotlin/kotlinx.coroutines
     }
 
@@ -143,7 +143,7 @@ repositories {
 ```kotlin
 dependencies {
     // library open-build-src
-    implementation("com.github.frogobox:open-build-src:2.1.8")
+    implementation("com.github.frogobox:open-build-src:2.1.9")
 }
 ```
 
