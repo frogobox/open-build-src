@@ -15,12 +15,12 @@ object Version {
 
     object Gradle {
         const val minSdk = 21
-        const val compileSdk = 33
+        const val compileSdk = 34
         const val targetSdk = compileSdk
     }
 
     object Ad {
-        const val unityAds = "4.8.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val unityAds = "4.9.1" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
         const val startIo = "4.11.0" // https://support.start.io/hc/en-us/articles/360014774799-Integration-via-Maven
     }
 
@@ -51,9 +51,9 @@ object Version {
         const val emoji2 = "1.4.0" // https://developer.android.com/jetpack/androidx/releases/emoji2
 
         // Compose Version
+        const val composeCompiler = "1.5.3" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeAnimation = "1.5.4"// https://developer.android.com/jetpack/androidx/releases/compose
         const val composeActivity = "1.8.0" // https://androidx.tech/artifacts/activity/activity-compose/
-        const val composeCompiler = "1.5.3" // https://developer.android.com/jetpack/androidx/releases/compose
         const val compose = "1.5.4" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeMaterial = "1.5.4" // https://developer.android.com/jetpack/androidx/releases/compose
         const val composeFoundation = "1.5.4" // https://developer.android.com/jetpack/androidx/releases/compose
@@ -80,7 +80,7 @@ object Version {
         const val admob = "22.4.0" // https://developers.google.com/admob/android/sdk
         const val userMessagingPlatform = "2.0.0" // https://developers.google.com/admob/ump/android/quick-start#install_with_gradle
         const val hilt = "2.48.1" // https://dagger.dev/hilt/gradle-setup
-        const val adMediationUnityAd = "4.7.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
+        const val adMediationUnityAd = "4.9.1.0" // https://developers.google.com/admob/android/mediation/unity#step_3_import_the_unity_ads_sdk_and_adapter
     }
 
     object JetBrains {
