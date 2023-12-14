@@ -102,10 +102,11 @@ object Version {
         const val chucker = "4.0.0" // https://github.com/ChuckerTeam/chucker
         const val coil = "2.5.0" // https://coil-kt.github.io/coil/compose/
 
-        const val koin = "3.5.1" // https://github.com/InsertKoinIO/koin
-        const val koin_android = "3.5.1" // https://github.com/InsertKoinIO/koin
-        const val koin_android_compose = "3.5.1" // https://github.com/InsertKoinIO/koin
-        const val koin_ktor = "3.5.1" // https://github.com/InsertKoinIO/koin
+        const val koin_bom = "3.5.2-RC1"
+        const val koin = koin_bom // https://github.com/InsertKoinIO/koin
+        const val koin_android = koin_bom // https://github.com/InsertKoinIO/koin
+        const val koin_android_compose = koin_bom // https://github.com/InsertKoinIO/koin
+        const val koin_ktor = koin_bom // https://github.com/InsertKoinIO/koin
 
         const val ktor = "2.3.7" // https://ktor.io/
         const val piracyChecker = "1.2.8" // https://github.com/javiersantos/PiracyChecker
