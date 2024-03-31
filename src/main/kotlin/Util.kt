@@ -68,4 +68,33 @@ object Util {
 
     }
 
+    object Acra {
+
+        const val core = "ch.acra:acra-core:${Version.Util.acra}"
+        fun core(version: String): String = "ch.acra:acra-core:$version"
+
+        const val mail = "ch.acra:acra-mail:${Version.Util.acra}"
+        fun mail(version: String): String = "ch.acra:acra-mail:$version"
+
+        const val http = "ch.acra:acra-http:${Version.Util.acra}"
+        fun http(version: String): String = "ch.acra:acra-http:$version"
+
+        const val dialog = "ch.acra:acra-dialog:${Version.Util.acra}"
+        fun dialog(version: String): String = "ch.acra:acra-dialog:$version"
+
+        const val notification = "ch.acra:acra-notification:${Version.Util.acra}"
+        fun notification(version: String): String = "ch.acra:acra-notification:$version"
+
+        const val toast = "ch.acra:acra-toast:${Version.Util.acra}"
+        fun toast(version: String): String = "ch.acra:acra-toast:$version"
+
+        const val limiter = "ch.acra:acra-limiter:${Version.Util.acra}"
+        fun limiter(version: String): String = "ch.acra:acra-limiter:$version"
+
+        const val scheduler = "ch.acra:acra-advanced-scheduler:${Version.Util.acra}"
+        fun scheduler(version: String): String = "ch.acra:acra-advanced-scheduler:$version"
+
+
+    }
+
 }
