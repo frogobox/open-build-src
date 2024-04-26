@@ -37,8 +37,29 @@ object Google {
     const val autoServiceAnnotation = "com.google.auto.service:auto-service-annotations:${Version.Google.autoService}"
     fun autoServiceAnnotation(version: String) = "com.google.auto.service:auto-service-annotations:$version"
 
-    const val androidPlay = "com.google.android.play:core-ktx:${Version.Google.androidPlay}"
-    fun androidPlay(version: String) = "com.google.android.play:core-ktx:$version"
+    const val assetDelivery = "com.google.android.play:asset-delivery:${Version.Google.assetDelivery}"
+    fun assetDelivery(version: String) = "com.google.android.play:asset-delivery:$version"
+
+    const val assetDeliveryKtx = "com.google.android.play:asset-delivery-ktx:${Version.Google.assetDelivery}"
+    fun assetDeliveryKtx(version: String) = "com.google.android.play:asset-delivery-ktx:$version"
+
+    const val featureDelivery = "com.google.android.play:feature-delivery:${Version.Google.featureDelivery}"
+    fun featureDelivery(version: String) = "com.google.android.play:feature-delivery:$version"
+
+    const val featureDeliveryKtx = "com.google.android.play:feature-delivery-ktx:${Version.Google.featureDelivery}"
+    fun featureDeliveryKtx(version: String) = "com.google.android.play:feature-delivery-ktx:$version"
+
+    const val playReview = "com.google.android.play:review:${Version.Google.review}"
+    fun playReview(version: String) = "com.google.android.play:review:$version"
+
+    const val playReviewKtx = "com.google.android.play:review-ktx:${Version.Google.review}"
+    fun playReviewKtx(version: String) = "com.google.android.play:review-ktx:$version"
+
+    const val appUpdate = "com.google.android.play:app-update:${Version.Google.appUpdate}"
+    fun appUpdate(version: String) = "com.google.android.play:app-update:$version"
+
+    const val appUpdateKtx = "com.google.android.play:app-update-ktx:${Version.Google.appUpdate}"
+    fun appUpdateKtx(version: String) = "com.google.android.play:app-update-ktx:$version"
 
     const val flexbox = "com.google.android.flexbox:flexbox:${Version.Google.flexbox}"
     fun flexbox(version: String) = "com.google.android.flexbox:flexbox:$version"
